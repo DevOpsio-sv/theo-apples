@@ -11,7 +11,7 @@ export const en: SiteCopy = {
   intro: {
     label: "The artist",
     lead: "Teodor Dukov is a Bulgarian sculptor and artist.",
-    body: "He works principally in wood. The practice spans contemporary sculpture, the Theo Apples collection, sculptural furniture, paintings and works made for a particular place. Theo Apples is his signature collection: the apple, shaped by hand and finished in colour or in gold, silver and palladium. It is not a separate identity. Sculpture, furniture and painting are different ways of working with form, surface and the room a piece will occupy. Collectors, galleries, curators, architects and interior designers can read the work from this page, then follow it into the archive.",
+    body: "He works principally in wood. His practice spans contemporary sculpture, the Theo Apples collection, sculptural furniture, painting and works created for particular places. Theo Apples is his signature collection: the apple shaped by hand and finished in colour, gold, silver or palladium. Sculpture, furniture and painting are different ways of working with form, surface and the space a piece will occupy.",
     cta: "About Teodor Dukov",
   },
   bodies: {
@@ -537,7 +537,11 @@ export const en: SiteCopy = {
     home: {
       title: "Teodor Dukov | Bulgarian Sculptor & Contemporary Artist",
       description:
-        "Teodor Dukov is a Bulgarian sculptor and artist. Sculpture in wood, Theo Apples, collectible furniture and works for particular places.",
+        "Teodor Dukov is a Bulgarian sculptor and contemporary artist working across sculpture, collectible furniture, painting and object-based art, including the signature Theo Apples collection.",
+      ogDescription:
+        "Sculpture, collectible furniture, painting and object-based art by Bulgarian artist Teodor Dukov, including the signature Theo Apples collection.",
+      twitterDescription:
+        "Sculpture, collectible furniture, painting and object-based art by Bulgarian artist Teodor Dukov.",
     },
     work: {
       title: "Teodor Dukov — Sculpture, Furniture, Paintings & Projects",

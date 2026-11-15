@@ -8,7 +8,11 @@ export const ARTIST_NAME: Record<Locale, string> = {
 
 export const COLLECTION_NAME = "Theo Apples";
 
-export const SITE_ORIGIN = "https://www.theoapples.com";
+/** Public production origin. Canonical, Open Graph, sitemap and JSON-LD identities use this host. */
+export const SITE_ORIGIN = "https://teodordukov.com";
+
+/** Brand name used for og:site_name and the WebSite node. Not translated. */
+export const SITE_NAME = "Teodor Dukov";
 
 /**
  * Official profiles only. Leave empty until Teodor confirms the URL.

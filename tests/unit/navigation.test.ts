@@ -1,8 +1,19 @@
+import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import { primaryNav } from "../../src/content/navigation";
 import { pathFor } from "../../src/content/paths";
 import { resolveRedirect } from "../../src/content/redirects";
-import { applyDocumentHead, indexablePaths, renderSitemap, resolveDocumentSeo } from "../../src/content/seo";
+import { applyDocumentHead, indexablePaths, renderRobots, renderSitemap, renderSitemapIndex, resolveDocumentSeo } from "../../src/content/seo";
+
+const HOME_DESCRIPTION =
+  "Teodor Dukov is a Bulgarian sculptor and contemporary artist working across sculpture, collectible furniture, painting and object-based art, including the signature Theo Apples collection.";
+const HOME_OG =
+  "Sculpture, collectible furniture, painting and object-based art by Bulgarian artist Teodor Dukov, including the signature Theo Apples collection.";
+const HOME_TWITTER = "Sculpture, collectible furniture, painting and object-based art by Bulgarian artist Teodor Dukov.";
+
+function count(html: string, pattern: RegExp): number {
+  return html.match(pattern)?.length ?? 0;
+}
 
 describe("resolveRedirect", () => {
   it("sends legacy and unprefixed urls to english locale urls", () => {
@@ -74,18 +85,38 @@ describe("document seo", () => {
     const en = resolveDocumentSeo("/en");
     const bg = resolveDocumentSeo("/bg");
     expect(en.title).toBe("Teodor Dukov | Bulgarian Sculptor & Contemporary Artist");
-    expect(bg.title).toContain("Теодор Дуков");
+    expect(bg.title).toBe("Теодор Дуков | Български скулптор и съвременен художник");
     expect(en.title).not.toContain("T. Dukov");
-    expect(en.canonical).toBe("https://www.theoapples.com/en");
-    expect(bg.canonical).toBe("https://www.theoapples.com/bg");
-    expect(en.alternates.map((item) => item.hreflang)).toEqual(["en", "bg", "x-default"]);
-    expect(en.alternates.find((item) => item.hreflang === "x-default")?.href).toBe(en.canonical);
+    expect(en.description).toBe(HOME_DESCRIPTION);
+    expect(en.description).not.toContain("works for particular places");
+    expect(en.ogDescription).toBe(HOME_OG);
+    expect(en.twitterDescription).toBe(HOME_TWITTER);
+    expect(en.siteName).toBe("Teodor Dukov");
+    expect(en.image).toBeUndefined();
+    expect(en.canonical).toBe("https://teodordukov.com/en");
+    expect(bg.canonical).toBe("https://teodordukov.com/bg");
+    expect(bg.description).toBe(
+      "Теодор Дуков е български скулптор и художник. Скулптура от дърво, Theo Apples, колекционерски мебели и творби за конкретни места.",
+    );
+    expect(bg.ogDescription).toBe(bg.description);
+    expect(bg.twitterDescription).toBe(bg.description);
+    expect(en.alternates).toEqual([
+      { hreflang: "en", href: "https://teodordukov.com/en" },
+      { hreflang: "bg", href: "https://teodordukov.com/bg" },
+      { hreflang: "x-default", href: "https://teodordukov.com/en" },
+    ]);
+    expect(bg.alternates).toEqual(en.alternates);
     expect(en.index).toBe(true);
+    expect(bg.index).toBe(true);
     expect(resolveDocumentSeo("/en/cart").index).toBe(false);
+    expect(resolveDocumentSeo("/bg/kolichka").index).toBe(false);
     expect(resolveDocumentSeo("/en/theo-apples/crimson-gala-apple").canonical).toBe(
-      "https://www.theoapples.com/en/theo-apples/crimson-gala-apple",
+      "https://teodordukov.com/en/theo-apples/crimson-gala-apple",
     );
     expect(resolveDocumentSeo("/en/blog/not-a-real-article").index).toBe(false);
+    expect(JSON.stringify(en.jsonLd)).toContain("https://teodordukov.com/en");
+    expect(JSON.stringify(en.jsonLd)).not.toContain("theoapples.com");
+    expect(JSON.stringify(en.jsonLd)).not.toContain("wixsite.com");
   });
 
   it("lists both languages in the sitemap and leaves legacy urls out", () => {
@@ -100,13 +131,65 @@ describe("document seo", () => {
     const xml = renderSitemap();
     expect(xml).toContain('hreflang="bg"');
     expect(xml).toContain('hreflang="x-default"');
+    expect(xml).toContain("https://teodordukov.com/en");
+    expect(xml).toContain("https://teodordukov.com/bg");
+    expect(xml).not.toContain("theoapples.com");
+    expect(xml).not.toContain("wixsite.com");
+    expect(xml).not.toContain("workers.dev");
+    expect(renderSitemapIndex()).toContain("https://teodordukov.com/sitemap-pages.xml");
+    expect(renderRobots()).toContain("Sitemap: https://teodordukov.com/sitemap.xml");
+    expect(renderRobots()).not.toContain("noindex");
   });
 
-  it("puts crawlable metadata in the initial html", () => {
-    const html = applyDocumentHead("<html lang=\"en\"><head><title>Old</title><meta name=\"description\" content=\"old\" /></head><body></body></html>", resolveDocumentSeo("/en/artist"));
-    expect(html).toContain("Teodor Dukov | Bulgarian Sculptor &amp; Artist");
-    expect(html).toContain('rel="canonical"');
-    expect(html).toContain("application/ld+json");
-    expect(html).toContain("Bulgarian sculptor");
+  it("puts one set of crawlable metadata in the initial html", () => {
+    const shell = readFileSync(new URL("../../index.html", import.meta.url), "utf8");
+    const en = applyDocumentHead(shell, resolveDocumentSeo("/en"));
+    const bg = applyDocumentHead(shell, resolveDocumentSeo("/bg"));
+    const again = applyDocumentHead(en, resolveDocumentSeo("/bg"));
+
+    expect(en).toContain("<title>Teodor Dukov | Bulgarian Sculptor &amp; Contemporary Artist</title>");
+    expect(en).toContain(`content="${HOME_DESCRIPTION}"`);
+    expect(en).toContain('rel="canonical" href="https://teodordukov.com/en"');
+    expect(en).toContain('property="og:url" content="https://teodordukov.com/en"');
+    expect(en).toContain('property="og:site_name" content="Teodor Dukov"');
+    expect(en).toContain(`property="og:description" content="${HOME_OG}"`);
+    expect(en).toContain(`name="twitter:description" content="${HOME_TWITTER}"`);
+    expect(en).toContain('name="twitter:card" content="summary_large_image"');
+    expect(en).toContain('name="robots" content="index, follow"');
+    expect(en).not.toContain("noindex");
+    expect(en).not.toContain("og:image");
+    expect(en).not.toContain("twitter:image");
+    expect(en).not.toContain("theoapples.com");
+    expect(en).not.toContain("wixsite.com");
+    expect(en).not.toContain("workers.dev");
+    expect(en).not.toContain("pages.dev");
+    expect(count(en, /hreflang="/g)).toBe(3);
+    expect(count(en, /rel="canonical"/g)).toBe(1);
+    expect(count(en, /name="description"/g)).toBe(1);
+    expect(count(en, /property="og:url"/g)).toBe(1);
+    expect(count(en, /id="structured-data"/g)).toBe(1);
+
+    expect(bg).toContain("<html lang=\"bg\">");
+    expect(bg).toContain("<title>Теодор Дуков | Български скулптор и съвременен художник</title>");
+    expect(bg).toContain('rel="canonical" href="https://teodordukov.com/bg"');
+    expect(bg).toContain('property="og:url" content="https://teodordukov.com/bg"');
+    expect(bg).toContain('hreflang="en" href="https://teodordukov.com/en"');
+    expect(bg).toContain('hreflang="x-default" href="https://teodordukov.com/en"');
+    expect(bg).toContain('name="robots" content="index, follow"');
+    expect(count(bg, /hreflang="/g)).toBe(3);
+    expect(count(bg, /rel="canonical"/g)).toBe(1);
+    expect(count(again, /hreflang="/g)).toBe(3);
+    expect(count(again, /rel="canonical"/g)).toBe(1);
+    expect(count(again, /<noscript>/g)).toBe(1);
+
+    const artist = applyDocumentHead(
+      "<html lang=\"en\"><head><title>Old</title><meta name=\"description\" content=\"old\" /></head><body></body></html>",
+      resolveDocumentSeo("/en/artist"),
+    );
+    expect(artist).toContain("Teodor Dukov | Bulgarian Sculptor &amp; Artist");
+    expect(artist).toContain('rel="canonical" href="https://teodordukov.com/en/artist"');
+    expect(artist).toContain("https://teodordukov.com/images/contact/artist-portrait-gallery.png");
+    expect(count(artist, /property="og:image"/g)).toBe(1);
+    expect(count(artist, /name="twitter:image"/g)).toBe(1);
   });
 });

@@ -88,7 +88,7 @@ export interface SiteCopy {
     | "commissions"
     | "press"
     | "faq",
-    { title: string; description: string }
+    { title: string; description: string; ogDescription?: string; twitterDescription?: string }
   >;
   enquiry: {
     name: string;

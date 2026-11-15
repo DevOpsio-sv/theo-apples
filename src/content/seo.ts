@@ -1,5 +1,5 @@
 import { artworks, getArtworkBySlug } from "../data/artworks";
-import { artistName, PERSON_ID, SAME_AS, SITE_ORIGIN, WEBSITE_ID } from "./entity";
+import { artistName, PERSON_ID, SAME_AS, SITE_NAME, SITE_ORIGIN, WEBSITE_ID } from "./entity";
 import { copy } from "./copy";
 import { homeMedia } from "./home";
 import { workShareImage } from "./work-gallery";
@@ -65,6 +65,9 @@ export interface DocumentSeo {
   locale: Locale;
   title: string;
   description: string;
+  ogDescription: string;
+  twitterDescription: string;
+  siteName: string;
   canonical: string;
   index: boolean;
   alternates: AlternateLink[];
@@ -167,7 +170,7 @@ function websiteNode() {
   return {
     "@type": "WebSite",
     "@id": WEBSITE_ID,
-    name: "Teodor Dukov",
+    name: SITE_NAME,
     url: absoluteUrl(pathFor("en", "home")),
     inLanguage: ["en", "bg"],
     publisher: { "@id": PERSON_ID },
@@ -240,6 +243,9 @@ function build(
     locale,
     title,
     description,
+    ogDescription: description,
+    twitterDescription: description,
+    siteName: SITE_NAME,
     canonical: absoluteUrl(path),
     index,
     alternates: alternatesFor(path, index),
@@ -334,15 +340,16 @@ function routeSeo(match: Extract<PageMatch, { kind: "route" }>, path: string, te
   }
 
   const seo = text.seo[match.id as keyof typeof text.seo];
-  const image =
-    match.id === "work"
-      ? workShareImage.src
-      : match.id === "home" || match.id === "artist"
-        ? homeMedia.portrait.src
-        : homeMedia.heroMain.src;
-  const imageAlt =
-    match.id === "work" ? workShareImage.alt[locale] : match.id === "artist" ? text.alts.portrait : text.alts.heroMain;
-  return build(locale, path, seo.title, seo.description, true, [], image, imageAlt);
+  // Share images only where a real, non-demo asset is already assigned.
+  // The homepage has no social card. The Wix demo hero is not used as og:image.
+  const image = match.id === "work" ? workShareImage.src : match.id === "artist" ? homeMedia.portrait.src : undefined;
+  const imageAlt = match.id === "work" ? workShareImage.alt[locale] : match.id === "artist" ? text.alts.portrait : undefined;
+  const doc = build(locale, path, seo.title, seo.description, true, [], image, imageAlt);
+  return {
+    ...doc,
+    ogDescription: seo.ogDescription ?? doc.description,
+    twitterDescription: seo.twitterDescription ?? doc.description,
+  };
 }
 
 export function indexablePaths(): string[] {
@@ -419,35 +426,67 @@ function escapeAttr(value: string): string {
   return escapeHtml(value).replace(/"/g, "&quot;");
 }
 
+function replaceMetaName(html: string, name: string, content: string): string {
+  const tag = `<meta name="${name}" content="${escapeAttr(content)}" />`;
+  const re = new RegExp(`<meta\\s+name="${name}"[^>]*>`, "gi");
+  if (!re.test(html)) return html.replace("</head>", `${tag}\n</head>`);
+  re.lastIndex = 0;
+  let used = false;
+  return html.replace(re, () => {
+    if (used) return "";
+    used = true;
+    return tag;
+  });
+}
+
+/** Removes a previous discovery block and any stray managed tags so a route cannot emit two sets. */
+function stripManagedHead(html: string): string {
+  return html
+    .replace(/<!--discovery-->[\s\S]*?<!--\/discovery-->/g, "")
+    .replace(/<link\s+rel="canonical"[^>]*>/gi, "")
+    .replace(/<link\s+rel="alternate"[^>]*hreflang="[^"]*"[^>]*>/gi, "")
+    .replace(/<link\s+hreflang="[^"]*"[^>]*rel="alternate"[^>]*>/gi, "")
+    .replace(/<meta\s+name="robots"[^>]*>/gi, "")
+    .replace(/<meta\s+property="og:[^"]+"[^>]*>/gi, "")
+    .replace(/<meta\s+name="twitter:[^"]+"[^>]*>/gi, "")
+    .replace(/<script\b[^>]*\bid="structured-data"[^>]*>[\s\S]*?<\/script>/gi, "");
+}
+
 /** Injects crawlable head tags into the SPA shell. Body copy is rendered by the app. */
 export function applyDocumentHead(html: string, seo: DocumentSeo): string {
   let next = html.replace(/<html lang="[^"]*">/, `<html lang="${seo.locale}">`);
   next = next.replace(/<title>[\s\S]*?<\/title>/, `<title>${escapeHtml(seo.title)}</title>`);
-  const description = `<meta name="description" content="${escapeAttr(seo.description)}" />`;
-  if (/<meta\s+name="description"/i.test(next)) {
-    next = next.replace(/<meta\s+name="description"[^>]*>/i, description);
-  }
-  next = next.replace(/<!--discovery-->[\s\S]*?<!--\/discovery-->/g, "");
+  next = replaceMetaName(next, "description", seo.description);
+  next = stripManagedHead(next);
+  const image = seo.image ? absoluteUrl(seo.image) : "";
   const links = [
     `<link rel="canonical" href="${escapeAttr(seo.canonical)}" />`,
     ...seo.alternates.map(
       (alt) => `<link rel="alternate" hreflang="${alt.hreflang}" href="${escapeAttr(alt.href)}" data-alt="hreflang" />`,
     ),
     `<meta name="robots" content="${seo.index ? "index, follow" : "noindex, follow"}" />`,
-    `<meta property="og:title" content="${escapeAttr(seo.title)}" />`,
-    `<meta property="og:description" content="${escapeAttr(seo.description)}" />`,
-    `<meta property="og:url" content="${escapeAttr(seo.canonical)}" />`,
     `<meta property="og:type" content="${seo.ogType}" />`,
+    `<meta property="og:site_name" content="${escapeAttr(seo.siteName)}" />`,
+    `<meta property="og:title" content="${escapeAttr(seo.title)}" />`,
+    `<meta property="og:description" content="${escapeAttr(seo.ogDescription)}" />`,
+    `<meta property="og:url" content="${escapeAttr(seo.canonical)}" />`,
     `<meta property="og:locale" content="${seo.locale === "bg" ? "bg_BG" : "en_GB"}" />`,
+    image ? `<meta property="og:image" content="${escapeAttr(image)}" />` : "",
+    image && seo.imageAlt ? `<meta property="og:image:alt" content="${escapeAttr(seo.imageAlt)}" />` : "",
     `<meta name="twitter:card" content="summary_large_image" />`,
-    seo.image ? `<meta property="og:image" content="${escapeAttr(absoluteUrl(seo.image))}" />` : "",
-    seo.imageAlt ? `<meta property="og:image:alt" content="${escapeAttr(seo.imageAlt)}" />` : "",
+    `<meta name="twitter:title" content="${escapeAttr(seo.title)}" />`,
+    `<meta name="twitter:description" content="${escapeAttr(seo.twitterDescription)}" />`,
+    image ? `<meta name="twitter:image" content="${escapeAttr(image)}" />` : "",
     `<script type="application/ld+json" id="structured-data">${JSON.stringify(seo.jsonLd).replace(/</g, "\\u003c")}</script>`,
   ]
     .filter(Boolean)
     .join("\n");
   next = next.replace("</head>", `<!--discovery-->\n${links}\n<!--/discovery-->\n</head>`);
   const noscript = `<noscript><p>${escapeHtml(seo.description)}</p></noscript>`;
-  if (next.includes("<body>")) next = next.replace("<body>", `<body>\n${noscript}`);
+  if (/<noscript>[\s\S]*?<\/noscript>/.test(next)) {
+    next = next.replace(/<noscript>[\s\S]*?<\/noscript>/, noscript);
+  } else if (next.includes("<body>")) {
+    next = next.replace("<body>", `<body>\n${noscript}`);
+  }
   return next;
 }
