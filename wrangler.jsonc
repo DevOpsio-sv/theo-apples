@@ -7,13 +7,7 @@
 		"not_found_handling": "single-page-application",
 		"binding": "ASSETS"
 	},
-	"d1_databases": [
-		{
-			"binding": "DB",
-			"database_name": "theo-apples-db",
-			"database_id": "00000000-0000-0000-0000-000000000000",
-			"migrations_dir": "migrations"
-		},
+	"d1_databases": [		
 		{
 			"binding": "theo_apples_db",
 			"database_name": "theo-apples-db",
