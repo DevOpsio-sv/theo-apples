@@ -20,7 +20,7 @@ export function HeroCollage() {
     const target = heroRef.current;
     if (!target) return;
     return scroll(
-      (value) => {
+      (value: number) => {
         scrollYProgress.set(value);
       },
       { target, offset: ["start start", "end start"] },
