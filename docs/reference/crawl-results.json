@@ -1,0 +1,2342 @@
+﻿[
+    {
+        "Label":  "theoapples-com",
+        "Pages":  30,
+        "ImageUrls":  278,
+        "Downloaded":  261,
+        "SkippedTiny":  15,
+        "Failures":  [
+                         "http://s7.addthis.com/static/btn/v2/lg-share-en.gif :: The remote name could not be resolved: \u0027s7.addthis.com\u0027",
+                         "https://s7.addthis.com/static/btn/v2/lg-share-en.gif :: The remote name could not be resolved: \u0027s7.addthis.com\u0027"
+                     ],
+        "PageFailures":  [
+
+                         ],
+        "Manifest":  [
+                         {
+                             "Path":  "public/images/source/theoapples-com/1.jpg",
+                             "Url":  "https://theoapples.com/assets/images/available/1.jpg",
+                             "Bytes":  226982
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/4.jpg",
+                             "Url":  "https://theoapples.com/assets/images/available/4.jpg",
+                             "Bytes":  199012
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/sculpture_apple_with_leafs_1.jpg",
+                             "Url":  "https://theoapples.com/assets/images/available/sculpture_apple_with_leafs_1.jpg",
+                             "Bytes":  148030
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/2girls.jpg",
+                             "Url":  "https://theoapples.com/assets/images/background/2girls.jpg",
+                             "Bytes":  36741
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/agate.jpg",
+                             "Url":  "https://theoapples.com/assets/images/background/agate.jpg",
+                             "Bytes":  26641
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/apples_view.jpg",
+                             "Url":  "https://theoapples.com/assets/images/background/apples_view.jpg",
+                             "Bytes":  11714
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/bitten_stage1.jpg",
+                             "Url":  "https://theoapples.com/assets/images/background/bitten_stage1.jpg",
+                             "Bytes":  10540
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/bitten_stage2.jpg",
+                             "Url":  "https://theoapples.com/assets/images/background/bitten_stage2.jpg",
+                             "Bytes":  10077
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/ch_girl.jpg",
+                             "Url":  "https://theoapples.com/assets/images/background/ch_girl.jpg",
+                             "Bytes":  26348
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/ch_girl2.jpg",
+                             "Url":  "https://theoapples.com/assets/images/background/ch_girl2.jpg",
+                             "Bytes":  23852
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/gold.jpg",
+                             "Url":  "https://theoapples.com/assets/images/background/gold.jpg",
+                             "Bytes":  13471
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/gold2.jpg",
+                             "Url":  "https://theoapples.com/assets/images/background/gold2.jpg",
+                             "Bytes":  26246
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/izida.jpg",
+                             "Url":  "https://theoapples.com/assets/images/background/izida.jpg",
+                             "Bytes":  37096
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/piligrim.jpg",
+                             "Url":  "https://theoapples.com/assets/images/background/piligrim.jpg",
+                             "Bytes":  30773
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/plated_apple.jpg",
+                             "Url":  "https://theoapples.com/assets/images/background/plated_apple.jpg",
+                             "Bytes":  39131
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/red_apple.jpg",
+                             "Url":  "https://theoapples.com/assets/images/background/red_apple.jpg",
+                             "Bytes":  10959
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/red_view.jpg",
+                             "Url":  "https://theoapples.com/assets/images/background/red_view.jpg",
+                             "Bytes":  14150
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/round_cube_table.jpg",
+                             "Url":  "https://theoapples.com/assets/images/background/round_cube_table.jpg",
+                             "Bytes":  15082
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/silver.jpg",
+                             "Url":  "https://theoapples.com/assets/images/background/silver.jpg",
+                             "Bytes":  6230
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/T.Dukov.jpg",
+                             "Url":  "https://theoapples.com/assets/images/background/T.Dukov.jpg",
+                             "Bytes":  31188
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/table_apple.jpg",
+                             "Url":  "https://theoapples.com/assets/images/background/table_apple.jpg",
+                             "Bytes":  15485
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/table_pear.jpg",
+                             "Url":  "https://theoapples.com/assets/images/background/table_pear.jpg",
+                             "Bytes":  22103
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/wood_apple.jpg",
+                             "Url":  "https://theoapples.com/assets/images/background/wood_apple.jpg",
+                             "Bytes":  6619
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/wooden_apple3.jpg",
+                             "Url":  "https://theoapples.com/assets/images/background/wooden_apple3.jpg",
+                             "Bytes":  58247
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/working.jpg",
+                             "Url":  "https://theoapples.com/assets/images/background/working.jpg",
+                             "Bytes":  7689
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/available_green.png",
+                             "Url":  "https://theoapples.com/assets/images/graphics/available_green.png",
+                             "Bytes":  3316
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/biba.jpg",
+                             "Url":  "https://theoapples.com/assets/images/graphics/biba.jpg",
+                             "Bytes":  18231
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/boro.jpg",
+                             "Url":  "https://theoapples.com/assets/images/graphics/boro.jpg",
+                             "Bytes":  19452
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/Niki.jpg",
+                             "Url":  "https://theoapples.com/assets/images/graphics/Niki.jpg",
+                             "Bytes":  20670
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/onrequest_red.png",
+                             "Url":  "https://theoapples.com/assets/images/graphics/onrequest_red.png",
+                             "Bytes":  3519
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/onrequest2_red.png",
+                             "Url":  "https://theoapples.com/assets/images/graphics/onrequest2_red.png",
+                             "Bytes":  8061
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/sprite_home.jpg",
+                             "Url":  "https://theoapples.com/assets/images/graphics/sprite_home.jpg",
+                             "Bytes":  53045
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/teo.jpg",
+                             "Url":  "https://theoapples.com/assets/images/graphics/teo.jpg",
+                             "Bytes":  17226
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/tisho.jpg",
+                             "Url":  "https://theoapples.com/assets/images/graphics/tisho.jpg",
+                             "Bytes":  15251
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/appleinhand.png",
+                             "Url":  "https://theoapples.com/assets/images/making/appleinhand.png",
+                             "Bytes":  23161
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/black_white.jpg",
+                             "Url":  "https://theoapples.com/assets/images/making/black_white.jpg",
+                             "Bytes":  27794
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/detail_apple.jpg",
+                             "Url":  "https://theoapples.com/assets/images/making/detail_apple.jpg",
+                             "Bytes":  19300
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/finishing_apple.jpg",
+                             "Url":  "https://theoapples.com/assets/images/making/finishing_apple.jpg",
+                             "Bytes":  19834
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/polished_apple.jpg",
+                             "Url":  "https://theoapples.com/assets/images/making/polished_apple.jpg",
+                             "Bytes":  18921
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/polishing.jpg",
+                             "Url":  "https://theoapples.com/assets/images/making/polishing.jpg",
+                             "Bytes":  21683
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/sculpting_apple.jpg",
+                             "Url":  "https://theoapples.com/assets/images/making/sculpting_apple.jpg",
+                             "Bytes":  21677
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/a3.jpg",
+                             "Url":  "https://theoapples.com/assets/images/smallpic/a3.jpg",
+                             "Bytes":  10273
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/000start.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/000start.jpg",
+                             "Bytes":  43984
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01a.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/01a.jpg",
+                             "Bytes":  43529
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01b.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/01b.jpg",
+                             "Bytes":  39130
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01c.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/01c.jpg",
+                             "Bytes":  47030
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01d.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/01d.jpg",
+                             "Bytes":  24752
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01e.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/01e.jpg",
+                             "Bytes":  24649
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01f.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/01f.jpg",
+                             "Bytes":  26442
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01g.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/01g.jpg",
+                             "Bytes":  29464
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01i.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/01i.jpg",
+                             "Bytes":  31497
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01j.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/01j.jpg",
+                             "Bytes":  33954
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01k.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/01k.jpg",
+                             "Bytes":  33771
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01l.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/01l.jpg",
+                             "Bytes":  34351
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01m.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/01m.jpg",
+                             "Bytes":  33427
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/02a.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/02a.jpg",
+                             "Bytes":  51925
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/02b.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/02b.jpg",
+                             "Bytes":  70790
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/02c.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/02c.jpg",
+                             "Bytes":  79465
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/02d.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/02d.jpg",
+                             "Bytes":  70342
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/02e.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/02e.jpg",
+                             "Bytes":  71983
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/02f.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/02f.jpg",
+                             "Bytes":  64728
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/02g.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/02g.jpg",
+                             "Bytes":  68758
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/03a.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/03a.jpg",
+                             "Bytes":  41098
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/03b.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/03b.jpg",
+                             "Bytes":  56850
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/03c.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/03c.jpg",
+                             "Bytes":  30505
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/03d.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/03d.jpg",
+                             "Bytes":  39807
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/04a.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/04a.jpg",
+                             "Bytes":  43782
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/04b.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/04b.jpg",
+                             "Bytes":  64162
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/04c.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/04c.jpg",
+                             "Bytes":  68816
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/04d.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/04d.jpg",
+                             "Bytes":  40635
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/05a.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/05a.jpg",
+                             "Bytes":  73938
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/05b.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/05b.jpg",
+                             "Bytes":  34121
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/05c.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/05c.jpg",
+                             "Bytes":  40745
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/05d.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/05d.jpg",
+                             "Bytes":  44959
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/05e.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/05e.jpg",
+                             "Bytes":  58296
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/06a.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/06a.jpg",
+                             "Bytes":  39580
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/06b.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/06b.jpg",
+                             "Bytes":  44556
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/07a.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/07a.jpg",
+                             "Bytes":  42891
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/07b.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/07b.jpg",
+                             "Bytes":  66324
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/08a.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/08a.jpg",
+                             "Bytes":  54255
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/08b.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/08b.jpg",
+                             "Bytes":  45992
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/08c.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/08c.jpg",
+                             "Bytes":  35639
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/08d.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/08d.jpg",
+                             "Bytes":  47838
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/08f.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/08f.jpg",
+                             "Bytes":  47043
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/08g.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/08g.jpg",
+                             "Bytes":  46292
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/999.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/999.jpg",
+                             "Bytes":  27304
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/aaa.jpg",
+                             "Url":  "https://theoapples.com/presentation/bigpic/aaa.jpg",
+                             "Bytes":  40370
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/1green3white_basic.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/1green3white/1green3white_basic.jpg",
+                             "Bytes":  33288
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/1green3white34_small.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/1green3white/1green3white34_small.jpg",
+                             "Bytes":  7854
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/1green3whiteup_small.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/1green3white/1green3whiteup_small.jpg",
+                             "Bytes":  8204
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/3white34tumblong.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/3white/3white34tumblong.jpg",
+                             "Bytes":  6385
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/3whitebasiclong.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/3white/3whitebasiclong.jpg",
+                             "Bytes":  25922
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/3whiteuptumblong.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/3white/3whiteuptumblong.jpg",
+                             "Bytes":  6638
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/blackapplebasic.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/black/blackapplebasic.jpg",
+                             "Bytes":  20907
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/blackboxsmall.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/black/blackboxsmall.jpg",
+                             "Bytes":  7817
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/blackupsmall.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/black/blackupsmall.jpg",
+                             "Bytes":  6024
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/blackbitten34small.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/blackbitten/blackbitten34small.jpg",
+                             "Bytes":  5485
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/blackbittenbasic.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/blackbitten/blackbittenbasic.jpg",
+                             "Bytes":  17571
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/blackbittenboxsmall.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/blackbitten/blackbittenboxsmall.jpg",
+                             "Bytes":  7321
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/goldenapple34.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/gold/goldenapple34.jpg",
+                             "Bytes":  7343
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/goldenbasic.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/gold/goldenbasic.jpg",
+                             "Bytes":  24505
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/goldenboxsmall.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/gold/goldenboxsmall.jpg",
+                             "Bytes":  8770
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/goldensilver34d_small.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/goldensilver/goldensilver34d_small.jpg",
+                             "Bytes":  8933
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/goldensilver34l_small.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/goldensilver/goldensilver34l_small.jpg",
+                             "Bytes":  8580
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/goldensilverfrontbasic.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/goldensilver/goldensilverfrontbasic.jpg",
+                             "Bytes":  38159
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/green-apple-box-small.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/green/green-apple-box-small.jpg",
+                             "Bytes":  8015
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/green-apple-up-small.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/green/green-apple-up-small.jpg",
+                             "Bytes":  5760
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/greenbasic.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/green/greenbasic.jpg",
+                             "Bytes":  21265
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/boxsmall.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/red/boxsmall.jpg",
+                             "Bytes":  8568
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/redbasic.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/red/redbasic.jpg",
+                             "Bytes":  28875
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/redupsmall.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/red/redupsmall.jpg",
+                             "Bytes":  6523
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/silverbasic.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/silver/silverbasic.jpg",
+                             "Bytes":  23231
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/silverboxsmall.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/silver/silverboxsmall.jpg",
+                             "Bytes":  8555
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/silverup.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/silver/silverup.jpg",
+                             "Bytes":  5649
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/white34small.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/white/white34small.jpg",
+                             "Bytes":  5551
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/whitebasic.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/white/whitebasic.jpg",
+                             "Bytes":  23700
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/whiteboxsmall.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/white/whiteboxsmall.jpg",
+                             "Bytes":  7597
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/whiteandblackbittenupsmall.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/whiteandblackbitten/whiteandblackbittenupsmall.jpg",
+                             "Bytes":  7226
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/whiteblackbittenbasic.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/whiteandblackbitten/whiteblackbittenbasic.jpg",
+                             "Bytes":  22186
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/whiteblackbittenoppsmall.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/whiteandblackbitten/whiteblackbittenoppsmall.jpg",
+                             "Bytes":  6589
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/whitebittenbasic.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/whitebitten/whitebittenbasic.jpg",
+                             "Bytes":  18787
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/whitebittenboxsmall.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/whitebitten/whitebittenboxsmall.jpg",
+                             "Bytes":  7946
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/whitebittenupsmall.jpg",
+                             "Url":  "https://www.theoapples.com/apples/images/whitebitten/whitebittenupsmall.jpg",
+                             "Bytes":  4934
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/a_vasilev.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/asenvasilev/a_vasilev.jpg",
+                             "Bytes":  33997
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/a_vasilev2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/asenvasilev/a_vasilev2.jpg",
+                             "Bytes":  35345
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/a_vasilev3.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/asenvasilev/a_vasilev3.jpg",
+                             "Bytes":  38659
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/logoav.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/asenvasilev/logoav.jpg",
+                             "Bytes":  4842
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/1-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/available/1.jpg",
+                             "Bytes":  226982
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/4-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/available/4.jpg",
+                             "Bytes":  199012
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/sculpture_apple_with_leafs_1-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/available/sculpture_apple_with_leafs_1.jpg",
+                             "Bytes":  148030
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/2girls-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/background/2girls.jpg",
+                             "Bytes":  36741
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/agate-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/background/agate.jpg",
+                             "Bytes":  26641
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/apples_view-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/background/apples_view.jpg",
+                             "Bytes":  11714
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/bitten_stage1-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/background/bitten_stage1.jpg",
+                             "Bytes":  10540
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/bitten_stage2-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/background/bitten_stage2.jpg",
+                             "Bytes":  10077
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/ch_girl-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/background/ch_girl.jpg",
+                             "Bytes":  26348
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/ch_girl2-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/background/ch_girl2.jpg",
+                             "Bytes":  23852
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/gold-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/background/gold.jpg",
+                             "Bytes":  13471
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/gold2-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/background/gold2.jpg",
+                             "Bytes":  26246
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/izida-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/background/izida.jpg",
+                             "Bytes":  37096
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/piligrim-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/background/piligrim.jpg",
+                             "Bytes":  30773
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/plated_apple-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/background/plated_apple.jpg",
+                             "Bytes":  39131
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/red_apple-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/background/red_apple.jpg",
+                             "Bytes":  10959
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/red_view-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/background/red_view.jpg",
+                             "Bytes":  14150
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/round_cube_table-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/background/round_cube_table.jpg",
+                             "Bytes":  15082
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/silver-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/background/silver.jpg",
+                             "Bytes":  6230
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/T.Dukov-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/background/T.Dukov.jpg",
+                             "Bytes":  31188
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/table_apple-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/background/table_apple.jpg",
+                             "Bytes":  15485
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/table_pear-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/background/table_pear.jpg",
+                             "Bytes":  22103
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/wood_apple-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/background/wood_apple.jpg",
+                             "Bytes":  6619
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/wooden_apple3-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/background/wooden_apple3.jpg",
+                             "Bytes":  58247
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/working-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/background/working.jpg",
+                             "Bytes":  7689
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/available_green-2.png",
+                             "Url":  "https://www.theoapples.com/assets/images/graphics/available_green.png",
+                             "Bytes":  3316
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/biba-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/graphics/biba.jpg",
+                             "Bytes":  18231
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/boro-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/graphics/boro.jpg",
+                             "Bytes":  19452
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/Niki-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/graphics/Niki.jpg",
+                             "Bytes":  20670
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/onrequest_red-2.png",
+                             "Url":  "https://www.theoapples.com/assets/images/graphics/onrequest_red.png",
+                             "Bytes":  3519
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/onrequest2_red-2.png",
+                             "Url":  "https://www.theoapples.com/assets/images/graphics/onrequest2_red.png",
+                             "Bytes":  8061
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/sprite_home-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/graphics/sprite_home.jpg",
+                             "Bytes":  53045
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/teo-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/graphics/teo.jpg",
+                             "Bytes":  17226
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/tisho-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/graphics/tisho.jpg",
+                             "Bytes":  15251
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/appleinhand-2.png",
+                             "Url":  "https://www.theoapples.com/assets/images/making/appleinhand.png",
+                             "Bytes":  23161
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/black_white-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/making/black_white.jpg",
+                             "Bytes":  27794
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/detail_apple-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/making/detail_apple.jpg",
+                             "Bytes":  19300
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/finishing_apple-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/making/finishing_apple.jpg",
+                             "Bytes":  19834
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/polished_apple-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/making/polished_apple.jpg",
+                             "Bytes":  18921
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/polishing-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/making/polishing.jpg",
+                             "Bytes":  21683
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/sculpting_apple-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/making/sculpting_apple.jpg",
+                             "Bytes":  21677
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/paris1.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/paris/paris1.jpg",
+                             "Bytes":  25944
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/paris2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/paris/paris2.jpg",
+                             "Bytes":  20250
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/paris3.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/paris/paris3.jpg",
+                             "Bytes":  22996
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/paris4.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/paris/paris4.jpg",
+                             "Bytes":  34159
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/view-web.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/paris/view-web.jpg",
+                             "Bytes":  5015
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/a3-2.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/smallpic/a3.jpg",
+                             "Bytes":  10273
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/apples_testa.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/testa/apples_testa.jpg",
+                             "Bytes":  33258
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/apples_testa2new.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/testa/apples_testa2new.jpg",
+                             "Bytes":  15835
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/apples_testa3big.jpg",
+                             "Url":  "https://www.theoapples.com/assets/images/testa/apples_testa3big.jpg",
+                             "Bytes":  36839
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/000start-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/000start.jpg",
+                             "Bytes":  43984
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01a-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/01a.jpg",
+                             "Bytes":  43529
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01b-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/01b.jpg",
+                             "Bytes":  39130
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01c-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/01c.jpg",
+                             "Bytes":  47030
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01d-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/01d.jpg",
+                             "Bytes":  24752
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01e-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/01e.jpg",
+                             "Bytes":  24649
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01f-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/01f.jpg",
+                             "Bytes":  26442
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01g-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/01g.jpg",
+                             "Bytes":  29464
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01i-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/01i.jpg",
+                             "Bytes":  31497
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01j-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/01j.jpg",
+                             "Bytes":  33954
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01k-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/01k.jpg",
+                             "Bytes":  33771
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01l-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/01l.jpg",
+                             "Bytes":  34351
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01m-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/01m.jpg",
+                             "Bytes":  33427
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/02a-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/02a.jpg",
+                             "Bytes":  51925
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/02b-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/02b.jpg",
+                             "Bytes":  70790
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/02c-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/02c.jpg",
+                             "Bytes":  79465
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/02d-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/02d.jpg",
+                             "Bytes":  70342
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/02e-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/02e.jpg",
+                             "Bytes":  71983
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/02f-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/02f.jpg",
+                             "Bytes":  64728
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/02g-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/02g.jpg",
+                             "Bytes":  68758
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/03a-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/03a.jpg",
+                             "Bytes":  41098
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/03b-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/03b.jpg",
+                             "Bytes":  56850
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/03c-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/03c.jpg",
+                             "Bytes":  30505
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/03d-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/03d.jpg",
+                             "Bytes":  39807
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/04a-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/04a.jpg",
+                             "Bytes":  43782
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/04b-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/04b.jpg",
+                             "Bytes":  64162
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/04c-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/04c.jpg",
+                             "Bytes":  68816
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/04d-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/04d.jpg",
+                             "Bytes":  40635
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/05a-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/05a.jpg",
+                             "Bytes":  73938
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/05b-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/05b.jpg",
+                             "Bytes":  34121
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/05c-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/05c.jpg",
+                             "Bytes":  40745
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/05d-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/05d.jpg",
+                             "Bytes":  44959
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/05e-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/05e.jpg",
+                             "Bytes":  58296
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/06a-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/06a.jpg",
+                             "Bytes":  39580
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/06b-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/06b.jpg",
+                             "Bytes":  44556
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/07a-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/07a.jpg",
+                             "Bytes":  42891
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/07b-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/07b.jpg",
+                             "Bytes":  66324
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/08a-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/08a.jpg",
+                             "Bytes":  54255
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/08b-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/08b.jpg",
+                             "Bytes":  45992
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/08c-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/08c.jpg",
+                             "Bytes":  35639
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/08d-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/08d.jpg",
+                             "Bytes":  47838
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/08f-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/08f.jpg",
+                             "Bytes":  47043
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/08g-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/08g.jpg",
+                             "Bytes":  46292
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/999-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/999.jpg",
+                             "Bytes":  27304
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/aaa-2.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/bigpic/aaa.jpg",
+                             "Bytes":  40370
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01a-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/01a.jpg",
+                             "Bytes":  3962
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01b-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/01b.jpg",
+                             "Bytes":  4377
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01c-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/01c.jpg",
+                             "Bytes":  3857
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01g-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/01g.jpg",
+                             "Bytes":  2242
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01i-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/01i.jpg",
+                             "Bytes":  2052
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01j-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/01j.jpg",
+                             "Bytes":  4002
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01k-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/01k.jpg",
+                             "Bytes":  2462
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01l-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/01l.jpg",
+                             "Bytes":  2496
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/01m-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/01m.jpg",
+                             "Bytes":  2392
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/02a-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/02a.jpg",
+                             "Bytes":  4150
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/02b-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/02b.jpg",
+                             "Bytes":  4694
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/02c-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/02c.jpg",
+                             "Bytes":  7694
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/02d-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/02d.jpg",
+                             "Bytes":  5895
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/02e-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/02e.jpg",
+                             "Bytes":  6221
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/02f-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/02f.jpg",
+                             "Bytes":  2686
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/02g-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/02g.jpg",
+                             "Bytes":  5148
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/03a-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/03a.jpg",
+                             "Bytes":  4150
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/03b-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/03b.jpg",
+                             "Bytes":  3839
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/03c-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/03c.jpg",
+                             "Bytes":  2211
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/03d-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/03d.jpg",
+                             "Bytes":  2735
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/04a-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/04a.jpg",
+                             "Bytes":  3991
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/04b-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/04b.jpg",
+                             "Bytes":  3900
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/04c-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/04c.jpg",
+                             "Bytes":  4092
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/04d-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/04d.jpg",
+                             "Bytes":  3565
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/05a-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/05a.jpg",
+                             "Bytes":  5459
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/05b-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/05b.jpg",
+                             "Bytes":  2570
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/05c-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/05c.jpg",
+                             "Bytes":  3001
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/05d-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/05d.jpg",
+                             "Bytes":  4628
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/05e-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/05e.jpg",
+                             "Bytes":  6031
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/06a-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/06a.jpg",
+                             "Bytes":  2623
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/06b-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/06b.jpg",
+                             "Bytes":  4193
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/07a-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/07a.jpg",
+                             "Bytes":  2756
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/07b-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/07b.jpg",
+                             "Bytes":  4748
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/08a-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/08a.jpg",
+                             "Bytes":  4276
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/08b-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/08b.jpg",
+                             "Bytes":  3211
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/08c-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/08c.jpg",
+                             "Bytes":  2892
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/08d-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/08d.jpg",
+                             "Bytes":  3659
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/08f-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/08f.jpg",
+                             "Bytes":  3930
+                         },
+                         {
+                             "Path":  "public/images/source/theoapples-com/aaa-3.jpg",
+                             "Url":  "https://www.theoapples.com/presentation/smallpic/aaa.jpg",
+                             "Bytes":  2613
+                         }
+                     ]
+    },
+    {
+        "Label":  "teodordukov-com",
+        "Pages":  30,
+        "ImageUrls":  123,
+        "Downloaded":  86,
+        "SkippedTiny":  0,
+        "Failures":  [
+                         "http://pinterest.com/pin/create/bookmarklet/?media=https://teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/Page0005.jpg :: The remote server returned an error: (308) Permanent Redirect.",
+                         "http://pinterest.com/pin/create/bookmarklet/?media=https://teodordukov.com/works/paintings/heandshe/he-and-she-drawing.jpg :: The remote server returned an error: (308) Permanent Redirect.",
+                         "https://teodordukov.com/assets/images/usefullinks/useful-links-gray.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/galleries/girlsdrinkingcoffee/thumbs/Page0005.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/reference/images/POKANA_26%20noemvri.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/americandream/thumbs/american-dream-drawing.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/appleinblack/thumbs/sculpture_apple_blask_3.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/appleinblue/thumbs/blue-apple-sculpture-3.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/appleinwhite/sculpture_apple_white_3.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/applewithleavesingreen/thumbs/sculpture_apple_with_leafs_1.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/blueeyedgirl/thumbs/Portret%20na%20momiche%20(3).jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/caress/thumbs/caress-drawing.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/caress/thumbs/Laska%20(2).JPG :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/girlwithblueeyes/thumbs/girl-with-blue-eyes-drawings.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/girlwithchinesesticks/thumbs/girl-with-chinese-sticks-drawings%20.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/girlwithcoke/thumbs/girl-with-coke-drawing.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/girlwithgrapes/thumbs/girl-with-grapes-drawings.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/girlwithgreeneyes/girl-with-green-eyes-drawings.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/headofagirlfromafrica/thumbs/head-of-a-girl-from-africa-drawing.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/heandshe/thumbs/he-and-she-drawing.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/heandshe/thumbs/Tq%20i%20Toi.JPG :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/humility/Smirenie.JPG :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/humility/thumbs/humility-drawings.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/love/thumbs/IMG_1723.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/minx/thumbs/sly-drawings.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/portraitofbiliana/thumbs/Biba_portret_2.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/portraitofmymother/thumbs/portret_maika_2.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/portraitofmysoninblue/thumbs/portret_iavor3_detail_2.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/portraitofmysoningold/thumbs/portret_iavor1.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/portraitofmysoninred/thumbs/portret_iavor2.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/portraitofmywife/thumbs/biba.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/selfportrait/thumbs/self-portrait-drawing.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/sisters/thumbs/sisters-drawing.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/sly/thumbs/Hitrusha.JPG :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/tablewithapple/thumbs/Apple%20Table.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/tablewithpear/thumbs/Image_4.jpg :: The remote server returned an error: (404) Not Found.",
+                         "https://teodordukov.com/works/touchthesky/thumbs/P6157502.JPG :: The remote server returned an error: (404) Not Found."
+                     ],
+        "PageFailures":  [
+                             "https://teodordukov.com/assets/images/favicons/apple-icon-57x57.png :: The remote server returned an error: (404) Not Found.",
+                             "https://teodordukov.com/assets/images/favicons/apple-icon-60x60.png :: The remote server returned an error: (404) Not Found.",
+                             "https://teodordukov.com/assets/images/favicons/apple-icon-72x72.png :: The remote server returned an error: (404) Not Found.",
+                             "https://teodordukov.com/assets/images/favicons/apple-icon-76x76.png :: The remote server returned an error: (404) Not Found.",
+                             "https://teodordukov.com/assets/images/favicons/apple-icon-114x114.png :: The remote server returned an error: (404) Not Found.",
+                             "https://teodordukov.com/assets/images/favicons/apple-icon-120x120.png :: The remote server returned an error: (404) Not Found.",
+                             "https://teodordukov.com/assets/images/favicons/apple-icon-144x144.png :: The remote server returned an error: (404) Not Found.",
+                             "https://teodordukov.com/assets/images/favicons/apple-icon-152x152.png :: The remote server returned an error: (404) Not Found.",
+                             "https://teodordukov.com/assets/images/favicons/apple-icon-180x180.png :: The remote server returned an error: (404) Not Found.",
+                             "https://teodordukov.com/assets/images/favicons/android-icon-192x192.png :: The remote server returned an error: (404) Not Found.",
+                             "https://teodordukov.com/assets/images/favicons/favicon-32x32.png :: The remote server returned an error: (404) Not Found.",
+                             "https://teodordukov.com/assets/images/favicons/favicon-96x96.png :: The remote server returned an error: (404) Not Found.",
+                             "https://teodordukov.com/assets/images/favicons/favicon-16x16.png :: The remote server returned an error: (404) Not Found.",
+                             "https://teodordukov.com/assets/images/favicons/manifest.json :: The remote server returned an error: (404) Not Found.",
+                             "https://teodordukov.com/galleries/ :: The remote server returned an error: (403) Forbidden.",
+                             "https://teodordukov.com/reference/ :: The remote server returned an error: (403) Forbidden.",
+                             "https://teodordukov.com/galleries :: The remote server returned an error: (403) Forbidden.",
+                             "https://teodordukov.com/reference :: The remote server returned an error: (403) Forbidden.",
+                             "https://www.teodordukov.com/assets/images/favicons/apple-icon-57x57.png :: The remote server returned an error: (404) Not Found.",
+                             "https://www.teodordukov.com/assets/images/favicons/apple-icon-60x60.png :: The remote server returned an error: (404) Not Found.",
+                             "https://www.teodordukov.com/assets/images/favicons/apple-icon-72x72.png :: The remote server returned an error: (404) Not Found.",
+                             "https://www.teodordukov.com/assets/images/favicons/apple-icon-76x76.png :: The remote server returned an error: (404) Not Found.",
+                             "https://www.teodordukov.com/assets/images/favicons/apple-icon-114x114.png :: The remote server returned an error: (404) Not Found.",
+                             "https://www.teodordukov.com/assets/images/favicons/apple-icon-120x120.png :: The remote server returned an error: (404) Not Found.",
+                             "https://www.teodordukov.com/assets/images/favicons/apple-icon-144x144.png :: The remote server returned an error: (404) Not Found.",
+                             "https://www.teodordukov.com/assets/images/favicons/apple-icon-152x152.png :: The remote server returned an error: (404) Not Found.",
+                             "https://www.teodordukov.com/assets/images/favicons/apple-icon-180x180.png :: The remote server returned an error: (404) Not Found.",
+                             "https://www.teodordukov.com/assets/images/favicons/android-icon-192x192.png :: The remote server returned an error: (404) Not Found.",
+                             "https://www.teodordukov.com/assets/images/favicons/favicon-32x32.png :: The remote server returned an error: (404) Not Found.",
+                             "https://www.teodordukov.com/assets/images/favicons/favicon-96x96.png :: The remote server returned an error: (404) Not Found.",
+                             "https://www.teodordukov.com/assets/images/favicons/favicon-16x16.png :: The remote server returned an error: (404) Not Found.",
+                             "https://www.teodordukov.com/assets/images/favicons/manifest.json :: The remote server returned an error: (404) Not Found."
+                         ],
+        "Manifest":  [
+                         {
+                             "Path":  "public/images/source/teodordukov-com/Page0005.jpg",
+                             "Url":  "http://teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/Page0005.jpg",
+                             "Bytes":  366228
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/Page0010.jpg",
+                             "Url":  "http://teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/Page0010.jpg",
+                             "Bytes":  397324
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/Page0011.jpg",
+                             "Url":  "http://teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/Page0011.jpg",
+                             "Bytes":  385037
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/he-and-she-drawing.jpg",
+                             "Url":  "http://teodordukov.com/works/paintings/heandshe/he-and-she-drawing.jpg",
+                             "Bytes":  418995
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/teodordukov.JPG",
+                             "Url":  "https://teodordukov.com/assets/images/covers/teodordukov.JPG",
+                             "Bytes":  199799
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/SAM_0329.JPG",
+                             "Url":  "https://teodordukov.com/assets/images/home/SAM_0329.JPG",
+                             "Bytes":  514034
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/SAM_0338.JPG",
+                             "Url":  "https://teodordukov.com/assets/images/home/SAM_0338.JPG",
+                             "Bytes":  471751
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/SAM_0346.JPG",
+                             "Url":  "https://teodordukov.com/assets/images/home/SAM_0346.JPG",
+                             "Bytes":  497262
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/1green3white_basic.jpg",
+                             "Url":  "https://teodordukov.com/assets/images/recommendedlinks/1green3white_basic.jpg",
+                             "Bytes":  33288
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/apple-icon-180x180.png",
+                             "Url":  "https://teodordukov.com/assets/images/recommendedlinks/apple-icon-180x180.png",
+                             "Bytes":  16769
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/tivart-logo.jpg",
+                             "Url":  "https://teodordukov.com/assets/images/recommendedlinks/tivart-logo.jpg",
+                             "Bytes":  162999
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/2.jpg",
+                             "Url":  "https://teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/thumbs/2.jpg",
+                             "Bytes":  162678
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/2005-01-13_20001.JPG",
+                             "Url":  "https://teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/thumbs/2005-01-13%20001.JPG",
+                             "Bytes":  148910
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/2005-01-19_20022.JPG",
+                             "Url":  "https://teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/thumbs/2005-01-19%20022.JPG",
+                             "Bytes":  172720
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/2005-01-19_20035.JPG",
+                             "Url":  "https://teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/thumbs/2005-01-19%20035.JPG",
+                             "Bytes":  181823
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/3.jpg",
+                             "Url":  "https://teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/thumbs/3.jpg",
+                             "Bytes":  155981
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/6.jpg",
+                             "Url":  "https://teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/thumbs/6.jpg",
+                             "Bytes":  154930
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/7.jpg",
+                             "Url":  "https://teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/thumbs/7.jpg",
+                             "Bytes":  178055
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/IMGP0417.JPG",
+                             "Url":  "https://teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/thumbs/IMGP0417.JPG",
+                             "Bytes":  172943
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/IMGP0426.JPG",
+                             "Url":  "https://teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/thumbs/IMGP0426.JPG",
+                             "Bytes":  159919
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/IMGP0428.JPG",
+                             "Url":  "https://teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/thumbs/IMGP0428.JPG",
+                             "Bytes":  147263
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/IMGP0433.JPG",
+                             "Url":  "https://teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/thumbs/IMGP0433.JPG",
+                             "Bytes":  150058
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/IMGP0442.JPG",
+                             "Url":  "https://teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/thumbs/IMGP0442.JPG",
+                             "Bytes":  111492
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/IMGP0454.JPG",
+                             "Url":  "https://teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/thumbs/IMGP0454.JPG",
+                             "Bytes":  122168
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/IMGP0820.JPG",
+                             "Url":  "https://teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/thumbs/IMGP0820.JPG",
+                             "Bytes":  160440
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/Page0002.jpg",
+                             "Url":  "https://teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/thumbs/Page0002.jpg",
+                             "Bytes":  102144
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/Page0003.jpg",
+                             "Url":  "https://teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/thumbs/Page0003.jpg",
+                             "Bytes":  140393
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/Page0004.jpg",
+                             "Url":  "https://teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/thumbs/Page0004.jpg",
+                             "Bytes":  84844
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/Page0005-3.jpg",
+                             "Url":  "https://teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/thumbs/Page0005.jpg",
+                             "Bytes":  145450
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/Page0006.jpg",
+                             "Url":  "https://teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/thumbs/Page0006.jpg",
+                             "Bytes":  133068
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/Page0007.jpg",
+                             "Url":  "https://teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/thumbs/Page0007.jpg",
+                             "Bytes":  149056
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/Page0008.jpg",
+                             "Url":  "https://teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/thumbs/Page0008.jpg",
+                             "Bytes":  121334
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/Page0009.jpg",
+                             "Url":  "https://teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/thumbs/Page0009.jpg",
+                             "Bytes":  167902
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/Page0010-2.jpg",
+                             "Url":  "https://teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/thumbs/Page0010.jpg",
+                             "Bytes":  174243
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/Page0011-2.jpg",
+                             "Url":  "https://teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/thumbs/Page0011.jpg",
+                             "Bytes":  168867
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/POKANA_26_20noemvri.jpg",
+                             "Url":  "https://teodordukov.com/reference/events/images/POKANA_26%20noemvri.jpg",
+                             "Bytes":  156948
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/POKANA_26_20noemvri-2.jpg",
+                             "Url":  "https://teodordukov.com/reference/events/images/thumbs/POKANA_26%20noemvri.jpg",
+                             "Bytes":  178558
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/Apple_20Table.jpg",
+                             "Url":  "https://teodordukov.com/works/furniture/tablewithapple/thumbs/Apple%20Table.jpg",
+                             "Bytes":  151741
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/Image_4.jpg",
+                             "Url":  "https://teodordukov.com/works/furniture/tablewithpear/thumbs/Image_4.jpg",
+                             "Bytes":  179540
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/american-dream-drawing-2.jpg",
+                             "Url":  "https://teodordukov.com/works/paintings/americandream/thumbs/american-dream-drawing.jpg",
+                             "Bytes":  232720
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/caress-drawing-2.jpg",
+                             "Url":  "https://teodordukov.com/works/paintings/caress/thumbs/caress-drawing.jpg",
+                             "Bytes":  226363
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/girl-with-blue-eyes-drawings-2.jpg",
+                             "Url":  "https://teodordukov.com/works/paintings/girlwithblueeyes/thumbs/girl-with-blue-eyes-drawings.jpg",
+                             "Bytes":  174747
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/girl-with-chinese-sticks-drawings_20-2.jpg",
+                             "Url":  "https://teodordukov.com/works/paintings/girlwithchinesesticks/thumbs/girl-with-chinese-sticks-drawings%20.jpg",
+                             "Bytes":  139210
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/girl-with-coke-drawing-2.jpg",
+                             "Url":  "https://teodordukov.com/works/paintings/girlwithcoke/thumbs/girl-with-coke-drawing.jpg",
+                             "Bytes":  227083
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/girl-with-grapes-drawings-2.jpg",
+                             "Url":  "https://teodordukov.com/works/paintings/girlwithgrapes/thumbs/girl-with-grapes-drawings.jpg",
+                             "Bytes":  237115
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/girl-with-green-eyes-drawings-2.jpg",
+                             "Url":  "https://teodordukov.com/works/paintings/girlwithgreeneyes/girl-with-green-eyes-drawings.jpg",
+                             "Bytes":  657170
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/girl-with-green-eyes-drawings-3.jpg",
+                             "Url":  "https://teodordukov.com/works/paintings/girlwithgreeneyes/thumbs/girl-with-green-eyes-drawings.jpg",
+                             "Bytes":  186078
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/head-of-a-girl-from-africa-drawing-2.jpg",
+                             "Url":  "https://teodordukov.com/works/paintings/headofagirlfromafrica/thumbs/head-of-a-girl-from-africa-drawing.jpg",
+                             "Bytes":  213596
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/he-and-she-drawing-3.jpg",
+                             "Url":  "https://teodordukov.com/works/paintings/heandshe/he-and-she-drawing.jpg",
+                             "Bytes":  418995
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/he-and-she-drawing-4.jpg",
+                             "Url":  "https://teodordukov.com/works/paintings/heandshe/thumbs/he-and-she-drawing.jpg",
+                             "Bytes":  197625
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/humility-drawings-2.jpg",
+                             "Url":  "https://teodordukov.com/works/paintings/humility/thumbs/humility-drawings.jpg",
+                             "Bytes":  190083
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/sly-drawings-2.jpg",
+                             "Url":  "https://teodordukov.com/works/paintings/minx/thumbs/sly-drawings.jpg",
+                             "Bytes":  160517
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/self-portrait-drawing.jpg",
+                             "Url":  "https://teodordukov.com/works/paintings/selfportrait/thumbs/self-portrait-drawing.jpg",
+                             "Bytes":  214099
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/sisters-drawing.jpg",
+                             "Url":  "https://teodordukov.com/works/paintings/sisters/thumbs/sisters-drawing.jpg",
+                             "Bytes":  230341
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/Portret_20na_20momiche_20_3_-2.jpg",
+                             "Url":  "https://teodordukov.com/works/sculpture/blueeyedgirl/thumbs/Portret%20na%20momiche%20(3).jpg",
+                             "Bytes":  178127
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/Laska_20_2_-2.JPG",
+                             "Url":  "https://teodordukov.com/works/sculpture/caress/thumbs/Laska%20(2).JPG",
+                             "Bytes":  141496
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/Medalion_20Square.jpg",
+                             "Url":  "https://teodordukov.com/works/sculpture/evolutionofthegood/thumbs/Medalion%20Square.jpg",
+                             "Bytes":  140488
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/Piligrim_205.jpg",
+                             "Url":  "https://teodordukov.com/works/sculpture/flight/Piligrim%205.jpg",
+                             "Bytes":  500706
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/Image_4-3.jpg",
+                             "Url":  "https://teodordukov.com/works/sculpture/flight/thumbs/Image_4-3.jpg",
+                             "Bytes":  217273
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/Piligrim_205-2.jpg",
+                             "Url":  "https://teodordukov.com/works/sculpture/flight/thumbs/Piligrim%205.jpg",
+                             "Bytes":  222784
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/Tq_20i_20Toi-2.JPG",
+                             "Url":  "https://teodordukov.com/works/sculpture/heandshe/thumbs/Tq%20i%20Toi.JPG",
+                             "Bytes":  129723
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/Smirenie-2.JPG",
+                             "Url":  "https://teodordukov.com/works/sculpture/humility/Smirenie.JPG",
+                             "Bytes":  377107
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/Smirenie-3.JPG",
+                             "Url":  "https://teodordukov.com/works/sculpture/humility/thumbs/Smirenie.JPG",
+                             "Bytes":  141465
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/IMG_1723-2.jpg",
+                             "Url":  "https://teodordukov.com/works/sculpture/love/thumbs/IMG_1723.jpg",
+                             "Bytes":  132651
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/Biba_portret_2-2.jpg",
+                             "Url":  "https://teodordukov.com/works/sculpture/portraitofbiliana/thumbs/Biba_portret_2.jpg",
+                             "Bytes":  185615
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/portret_maika_2-2.jpg",
+                             "Url":  "https://teodordukov.com/works/sculpture/portraitofmymother/thumbs/portret_maika_2.jpg",
+                             "Bytes":  177692
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/portret_iavor3_detail_2-2.jpg",
+                             "Url":  "https://teodordukov.com/works/sculpture/portraitofmysoninblue/thumbs/portret_iavor3_detail_2.jpg",
+                             "Bytes":  101370
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/portret_iavor1-2.jpg",
+                             "Url":  "https://teodordukov.com/works/sculpture/portraitofmysoningold/thumbs/portret_iavor1.jpg",
+                             "Bytes":  107748
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/portret_iavor2-2.jpg",
+                             "Url":  "https://teodordukov.com/works/sculpture/portraitofmysoninred/thumbs/portret_iavor2.jpg",
+                             "Bytes":  90717
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/biba-2.jpg",
+                             "Url":  "https://teodordukov.com/works/sculpture/portraitofmywife/thumbs/biba.jpg",
+                             "Bytes":  154292
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/Hitrusha.JPG",
+                             "Url":  "https://teodordukov.com/works/sculpture/sly/thumbs/Hitrusha.JPG",
+                             "Bytes":  156760
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/P6157502.JPG",
+                             "Url":  "https://teodordukov.com/works/sculpture/touchthesky/thumbs/P6157502.JPG",
+                             "Bytes":  261000
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/sculpture_apple_blask_3-2.jpg",
+                             "Url":  "https://teodordukov.com/works/theoapples/appleinblack/thumbs/sculpture_apple_blask_3.jpg",
+                             "Bytes":  62961
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/blue-apple-sculpture-3-2.jpg",
+                             "Url":  "https://teodordukov.com/works/theoapples/appleinblue/thumbs/blue-apple-sculpture-3.jpg",
+                             "Bytes":  88987
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/sculpture_apple_white_3-2.jpg",
+                             "Url":  "https://teodordukov.com/works/theoapples/appleinwhite/sculpture_apple_white_3.jpg",
+                             "Bytes":  276333
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/sculpture_apple_white_3-3.jpg",
+                             "Url":  "https://teodordukov.com/works/theoapples/appleinwhite/thumbs/sculpture_apple_white_3.jpg",
+                             "Bytes":  78571
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/sculpture_apple_with_leafs_1-2.jpg",
+                             "Url":  "https://teodordukov.com/works/theoapples/applewithleavesingreen/thumbs/sculpture_apple_with_leafs_1.jpg",
+                             "Bytes":  85088
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/SAM_0329-2.JPG",
+                             "Url":  "https://www.teodordukov.com/assets/images/home/SAM_0329.JPG",
+                             "Bytes":  514034
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/SAM_0338-2.JPG",
+                             "Url":  "https://www.teodordukov.com/assets/images/home/SAM_0338.JPG",
+                             "Bytes":  471751
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/SAM_0346-2.JPG",
+                             "Url":  "https://www.teodordukov.com/assets/images/home/SAM_0346.JPG",
+                             "Bytes":  497262
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/6-2.jpg",
+                             "Url":  "https://www.teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/thumbs/6.jpg",
+                             "Bytes":  154930
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/IMGP0428-2.JPG",
+                             "Url":  "https://www.teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/thumbs/IMGP0428.JPG",
+                             "Bytes":  147263
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/IMGP0442-2.JPG",
+                             "Url":  "https://www.teodordukov.com/galleries/workingprocess/girlsdrinkingcoffee/thumbs/IMGP0442.JPG",
+                             "Bytes":  111492
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/POKANA_26_20noemvri-4.jpg",
+                             "Url":  "https://www.teodordukov.com/reference/events/images/thumbs/POKANA_26%20noemvri.jpg",
+                             "Bytes":  178558
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/girl-with-earrings-drawing.jpg",
+                             "Url":  "https://www.teodordukov.com/works/paintings/girlwithearrings/thumbs/girl-with-earrings-drawing.jpg",
+                             "Bytes":  198838
+                         },
+                         {
+                             "Path":  "public/images/source/teodordukov-com/Girl_201_201_20copy.jpg",
+                             "Url":  "https://www.teodordukov.com/works/sculpture/headofagirlfromafrica/thumbs/Girl%201%201%20copy.jpg",
+                             "Bytes":  138276
+                         }
+                     ]
+    },
+    {
+        "Label":  "wix-demo",
+        "Pages":  30,
+        "ImageUrls":  127,
+        "Downloaded":  94,
+        "SkippedTiny":  10,
+        "Failures":  [
+                         "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%22d90652a2-f5a1-4c7c-84c4-d4cdcc41f130%22%3A%229292%22%2C%2214bcded7-0066-7c35-14d7-466cb3f09103%22%3A%221335%22%2C%2213d21c63-b5ec-5912-8397-c3a5ddb27a97%22%3A%22440%22%2C%227479d596-137c-4fa3-89cd-d7091042ba61%22%3A%22132%22%2C%22b2e8b4cb-1799-4b3c-bace-d55b503f7334%22%3A%2246%22%2C%22b976560c-3122-4351-878f-453f337b7245%22%3A%221358%22%7D\u0026beckyExperiments=.DatePickerPortal%2C.DisableDocumentScrollWhenLightBoxOpen%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.a11yContrast%2C.addIdAsClassName%2C.allowWebpAvifTransforms%2C.builderBoxSizingBorderBox%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.dom_store%2C.dontApplyDacOverridesOnBoBApps%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixFirefoxLinkBarIntrinsicSizing%2C.fixRemappedFullNameCompType%2C.imageEncodingAVIF%2C.isClassNameToRootEnabled%2C.motionTimeAnimationsCSS%2C.plainClassSelectors%2C.responsiveContainerRoleGroup%2C.sectionA11yProps%2C.shouldIgnoreWidgetsPageData%2C.shouldUseResponsiveImages%2C.splitSlotSelectors%2C.svg :: The remote server returned an error: (400) Bad Request.",
+                         "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%22d90652a2-f5a1-4c7c-84c4-d4cdcc41f130%22%3A%229292%22%2C%2214bcded7-0066-7c35-14d7-466cb3f09103%22%3A%221335%22%2C%2213d21c63-b5ec-5912-8397-c3a5ddb27a97%22%3A%22440%22%2C%227479d596-137c-4fa3-89cd-d7091042ba61%22%3A%22132%22%2C%22b2e8b4cb-1799-4b3c-bace-d55b503f7334%22%3A%2246%22%2C%22b976560c-3122-4351-878f-453f337b7245%22%3A%221358%22%7D\u0026beckyExperiments=.DatePickerPortal%2C.DisableDocumentScrollWhenLightBoxOpen%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.a11yContrast%2C.addIdAsClassName%2C.allowWebpAvifTransforms%2C.builderBoxSizingBorderBox%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.dom_store%2C.dontApplyDacOverridesOnBoBApps%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixFirefoxLinkBarIntrinsicSizing%2C.fixRemappedFullNameCompType%2C.imageEncodingAVIF%2C.isClassNameToRootEnabled%2C.motionTimeAnimationsCSS%2C.plainClassSelectors%2C.responsiveContainerRoleGroup%2C.sectionA11yProps%2C.shouldIgnoreWidgetsPageData%2C.shouldUseResponsiveImages%2C.svg :: The remote server returned an error: (400) Bad Request.",
+                         "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%22d90652a2-f5a1-4c7c-84c4-d4cdcc41f130%22%3A%229292%22%2C%2214bcded7-0066-7c35-14d7-466cb3f09103%22%3A%221335%22%2C%2213d21c63-b5ec-5912-8397-c3a5ddb27a97%22%3A%22440%22%2C%227479d596-137c-4fa3-89cd-d7091042ba61%22%3A%22132%22%2C%22b2e8b4cb-1799-4b3c-bace-d55b503f7334%22%3A%2246%22%2C%22b976560c-3122-4351-878f-453f337b7245%22%3A%221358%22%7D\u0026beckyExperiments=.DatePickerPortal%2C.DisableDocumentScrollWhenLightBoxOpen%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.a11yContrast%2C.addIdAsClassName%2C.allowWebpAvifTransforms%2C.builderBoxSizingBorderBox%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.dom_store%2C.dontApplyDacOverridesOnBoBApps%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixFirefoxLinkBarIntrinsicSizing%2C.fixRemappedFullNameCompType%2C.imageEncodingAVIF%2C.isClassNameToRootEnabled%2C.motionTimeAnimationsCSS%2C.responsiveContainerRoleGroup%2C.sectionA11yProps%2C.shouldIgnoreWidgetsPageData%2C.shouldUseResponsiveImages%2C.splitSlotSelectors%2C.svg :: The remote server returned an error: (400) Bad Request.",
+                         "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%22d90652a2-f5a1-4c7c-84c4-d4cdcc41f130%22%3A%229292%22%2C%2214bcded7-0066-7c35-14d7-466cb3f09103%22%3A%221335%22%2C%2213d21c63-b5ec-5912-8397-c3a5ddb27a97%22%3A%22440%22%2C%227479d596-137c-4fa3-89cd-d7091042ba61%22%3A%22132%22%2C%22b2e8b4cb-1799-4b3c-bace-d55b503f7334%22%3A%2246%22%2C%22b976560c-3122-4351-878f-453f337b7245%22%3A%221358%22%7D\u0026beckyExperiments=.DatePickerPortal%2C.DisableDocumentScrollWhenLightBoxOpen%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.a11yContrast%2C.addIdAsClassName%2C.allowWebpAvifTransforms%2C.builderBoxSizingBorderBox%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.dom_store%2C.dontApplyDacOverridesOnBoBApps%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixFirefoxLinkBarIntrinsicSizing%2C.fixRemappedFullNameCompType%2C.imageEncodingAVIF%2C.isClassNameToRootEnabled%2C.motionTimeAnimationsCSS%2C.responsiveContainerRoleGroup%2C.sectionA11yProps%2C.shouldIgnoreWidgetsPageData%2C.shouldUseResponsiveImages%2C.svg :: The remote server returned an error: (400) Bad Request.",
+                         "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%22d90652a2-f5a1-4c7c-84c4-d4cdcc41f130%22%3A%229292%22%2C%2214bcded7-0066-7c35-14d7-466cb3f09103%22%3A%221335%22%2C%2213d21c63-b5ec-5912-8397-c3a5ddb27a97%22%3A%22440%22%2C%227479d596-137c-4fa3-89cd-d7091042ba61%22%3A%22132%22%2C%22b2e8b4cb-1799-4b3c-bace-d55b503f7334%22%3A%2246%22%2C%22b976560c-3122-4351-878f-453f337b7245%22%3A%221358%22%7D\u0026beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.addIdAsClassName%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixFirefoxLinkBarIntrinsicSizing%2C.isClassNameToRootEnabled%2C.logVsmPlatformDiff%2C.migrateSdkDataMappers%2C.plainClassSelectors%2C.shouldIgnoreWidgetsPageData%2C.splitSlotSelectors%2C.svg :: The remote server returned an error: (400) Bad Request.",
+                         "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%22d90652a2-f5a1-4c7c-84c4-d4cdcc41f130%22%3A%229292%22%2C%2214bcded7-0066-7c35-14d7-466cb3f09103%22%3A%221335%22%2C%2213d21c63-b5ec-5912-8397-c3a5ddb27a97%22%3A%22440%22%2C%227479d596-137c-4fa3-89cd-d7091042ba61%22%3A%22132%22%2C%22b2e8b4cb-1799-4b3c-bace-d55b503f7334%22%3A%2246%22%2C%22b976560c-3122-4351-878f-453f337b7245%22%3A%221358%22%7D\u0026beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.addIdAsClassName%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixFirefoxLinkBarIntrinsicSizing%2C.isClassNameToRootEnabled%2C.logVsmPlatformDiff%2C.migrateSdkDataMappers%2C.plainClassSelectors%2C.shouldIgnoreWidgetsPageData%2C.svg :: The remote server returned an error: (400) Bad Request.",
+                         "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%22d90652a2-f5a1-4c7c-84c4-d4cdcc41f130%22%3A%229292%22%2C%2214bcded7-0066-7c35-14d7-466cb3f09103%22%3A%221335%22%2C%2213d21c63-b5ec-5912-8397-c3a5ddb27a97%22%3A%22440%22%2C%227479d596-137c-4fa3-89cd-d7091042ba61%22%3A%22132%22%2C%22b2e8b4cb-1799-4b3c-bace-d55b503f7334%22%3A%2246%22%2C%22b976560c-3122-4351-878f-453f337b7245%22%3A%221358%22%7D\u0026beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.addIdAsClassName%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixFirefoxLinkBarIntrinsicSizing%2C.isClassNameToRootEnabled%2C.logVsmPlatformDiff%2C.migrateSdkDataMappers%2C.shouldIgnoreWidgetsPageData%2C.splitSlotSelectors%2C.svg :: The remote server returned an error: (400) Bad Request.",
+                         "https://siteassets.parastorage.com/pages/pages/thunderbolt?appDefinitionIdToSiteRevision=%7B%22d90652a2-f5a1-4c7c-84c4-d4cdcc41f130%22%3A%229292%22%2C%2214bcded7-0066-7c35-14d7-466cb3f09103%22%3A%221335%22%2C%2213d21c63-b5ec-5912-8397-c3a5ddb27a97%22%3A%22440%22%2C%227479d596-137c-4fa3-89cd-d7091042ba61%22%3A%22132%22%2C%22b2e8b4cb-1799-4b3c-bace-d55b503f7334%22%3A%2246%22%2C%22b976560c-3122-4351-878f-453f337b7245%22%3A%221358%22%7D\u0026beckyExperiments=.DatePickerPortal%2C.EnableCustomCSSVarsForLoginSocialBar%2C.FreemiumBannerOdeditor%2C.LoginBarEnableLoggingInStateInSSR%2C.TextInputAutoFillFix%2C.UseLoginSocialBarCustomMenu%2C.UseNestedLoginSocialBarMenuItems%2C.UseNewLoginBarDropdownMenuAlignment%2C.UseNewLoginSocialBarElementStructure%2C.UseNewLoginSocialBarMemberInitialsAvatar%2C.WixFreeSiteBannerDesktop%2C.WixFreeSiteBannerMobile%2C.addIdAsClassName%2C.buttonUdp%2C.calculateCollapsibleTextLineHeightByFont%2C.dynamicPageLinkTarget%2C.dynamicSlots%2C.fiveGridLineStudioSkins%2C.fixFirefoxLinkBarIntrinsicSizing%2C.isClassNameToRootEnabled%2C.logVsmPlatformDiff%2C.migrateSdkDataMappers%2C.shouldIgnoreWidgetsPageData%2C.svg :: The remote server returned an error: (400) Bad Request.",
+                         "https://static.wixstatic.com/media/a86e04_0b4928a3ca43426d9010a6ec9d30272c~mv2.png/v1/fill/w_305 :: The remote server returned an error: (403) Forbidden.",
+                         "https://static.wixstatic.com/media/a86e04_0b4928a3ca43426d9010a6ec9d30272c~mv2.png/v1/fill/w_333 :: The remote server returned an error: (403) Forbidden.",
+                         "https://static.wixstatic.com/media/a86e04_0b4928a3ca43426d9010a6ec9d30272c~mv2.png/v1/fill/w_767 :: The remote server returned an error: (403) Forbidden.",
+                         "https://static.wixstatic.com/media/a86e04_10b77301628842c793abcddc24ed9ab1~mv2.png/v1/fill/w_306 :: The remote server returned an error: (403) Forbidden.",
+                         "https://static.wixstatic.com/media/a86e04_10b77301628842c793abcddc24ed9ab1~mv2.png/v1/fill/w_334 :: The remote server returned an error: (403) Forbidden.",
+                         "https://static.wixstatic.com/media/a86e04_10b77301628842c793abcddc24ed9ab1~mv2.png/v1/fill/w_770 :: The remote server returned an error: (403) Forbidden.",
+                         "https://static.wixstatic.com/media/a86e04_45ff6a5965244ae0bec4b47f53eacc60~mv2.png/v1/fill/w_305 :: The remote server returned an error: (403) Forbidden.",
+                         "https://static.wixstatic.com/media/a86e04_45ff6a5965244ae0bec4b47f53eacc60~mv2.png/v1/fill/w_333 :: The remote server returned an error: (403) Forbidden.",
+                         "https://static.wixstatic.com/media/a86e04_45ff6a5965244ae0bec4b47f53eacc60~mv2.png/v1/fill/w_767 :: The remote server returned an error: (403) Forbidden.",
+                         "https://vasilevasilvena.wixsite.com/theo-apples/quality_auto/a86e04_0b4928a3ca43426d9010a6ec9d30272c~mv2.png :: The remote server returned an error: (404) Not Found.",
+                         "https://vasilevasilvena.wixsite.com/theo-apples/quality_auto/a86e04_0b4928a3ca43426d9010a6ec9d30272c~mv2.webp :: The remote server returned an error: (404) Not Found.",
+                         "https://vasilevasilvena.wixsite.com/theo-apples/quality_auto/a86e04_10b77301628842c793abcddc24ed9ab1~mv2.png :: The remote server returned an error: (404) Not Found.",
+                         "https://vasilevasilvena.wixsite.com/theo-apples/quality_auto/a86e04_10b77301628842c793abcddc24ed9ab1~mv2.webp :: The remote server returned an error: (404) Not Found.",
+                         "https://vasilevasilvena.wixsite.com/theo-apples/quality_auto/a86e04_45ff6a5965244ae0bec4b47f53eacc60~mv2.png :: The remote server returned an error: (404) Not Found.",
+                         "https://vasilevasilvena.wixsite.com/theo-apples/quality_auto/a86e04_45ff6a5965244ae0bec4b47f53eacc60~mv2.webp :: The remote server returned an error: (404) Not Found."
+                     ],
+        "PageFailures":  [
+
+                         ],
+        "Manifest":  [
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_0680fbaa91354ffdafdc450b5a6bdad3_mv2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_0680fbaa91354ffdafdc450b5a6bdad3~mv2.png/v1/fill/w_66,h_66,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a86e04_0680fbaa91354ffdafdc450b5a6bdad3~mv2.png",
+                             "Bytes":  10579
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_0680fbaa91354ffdafdc450b5a6bdad3_mv2-2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_0680fbaa91354ffdafdc450b5a6bdad3~mv2.png/v1/fill/w_662,h_662,al_c/a86e04_0680fbaa91354ffdafdc450b5a6bdad3~mv2.png",
+                             "Bytes":  576807
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/file.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_0680fbaa91354ffdafdc450b5a6bdad3~mv2.png/v1/fit/w_50,h_50,q_90/file.png",
+                             "Bytes":  6125
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/file-2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_0680fbaa91354ffdafdc450b5a6bdad3~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+                             "Bytes":  370281
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_075318f72a904429b63aab33933cffb4_mv2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_075318f72a904429b63aab33933cffb4~mv2.png/v1/fill/w_1600,h_320,al_c/a86e04_075318f72a904429b63aab33933cffb4~mv2.png",
+                             "Bytes":  668214
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_0b4928a3ca43426d9010a6ec9d30272c_mv2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_0b4928a3ca43426d9010a6ec9d30272c~mv2.png/v1/fill/w_305,h_229,fp_0.50_0.50,q_95,enc_avif,quality_auto/a86e04_0b4928a3ca43426d9010a6ec9d30272c~mv2.png",
+                             "Bytes":  155287
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_0b4928a3ca43426d9010a6ec9d30272c_mv2.webp",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_0b4928a3ca43426d9010a6ec9d30272c~mv2.png/v1/fill/w_305,h_229,fp_0.50_0.50,q_95,enc_avif,quality_auto/a86e04_0b4928a3ca43426d9010a6ec9d30272c~mv2.webp",
+                             "Bytes":  151872
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_0b4928a3ca43426d9010a6ec9d30272c_mv2-2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_0b4928a3ca43426d9010a6ec9d30272c~mv2.png/v1/fill/w_333,h_250,fp_0.50_0.50,q_35,blur_30,enc_avif,quality_auto/a86e04_0b4928a3ca43426d9010a6ec9d30272c~mv2.png",
+                             "Bytes":  75764
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_0b4928a3ca43426d9010a6ec9d30272c_mv2-2.webp",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_0b4928a3ca43426d9010a6ec9d30272c~mv2.png/v1/fill/w_333,h_250,fp_0.50_0.50,q_35,blur_30,enc_avif,quality_auto/a86e04_0b4928a3ca43426d9010a6ec9d30272c~mv2.webp",
+                             "Bytes":  75764
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_0b4928a3ca43426d9010a6ec9d30272c_mv2-3.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_0b4928a3ca43426d9010a6ec9d30272c~mv2.png/v1/fill/w_767,h_576,fp_0.50_0.50,q_35,blur_30,enc_avif,quality_auto/a86e04_0b4928a3ca43426d9010a6ec9d30272c~mv2.png",
+                             "Bytes":  327973
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_0b4928a3ca43426d9010a6ec9d30272c_mv2-3.webp",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_0b4928a3ca43426d9010a6ec9d30272c~mv2.png/v1/fill/w_767,h_576,fp_0.50_0.50,q_35,blur_30,enc_avif,quality_auto/a86e04_0b4928a3ca43426d9010a6ec9d30272c~mv2.webp",
+                             "Bytes":  327973
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_0b4928a3ca43426d9010a6ec9d30272c_mv2-4.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_0b4928a3ca43426d9010a6ec9d30272c~mv2.png/v1/fill/w_767,h_576,fp_0.50_0.50,q_95,enc_avif,quality_auto/a86e04_0b4928a3ca43426d9010a6ec9d30272c~mv2.png",
+                             "Bytes":  914465
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_0b4928a3ca43426d9010a6ec9d30272c_mv2-4.webp",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_0b4928a3ca43426d9010a6ec9d30272c~mv2.png/v1/fill/w_767,h_576,fp_0.50_0.50,q_95,enc_avif,quality_auto/a86e04_0b4928a3ca43426d9010a6ec9d30272c~mv2.webp",
+                             "Bytes":  914465
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/file-3.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_0b4928a3ca43426d9010a6ec9d30272c~mv2.png/v1/fit/w_1000,h_576,al_c,q_80/file.png",
+                             "Bytes":  1154679
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_10b77301628842c793abcddc24ed9ab1_mv2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_10b77301628842c793abcddc24ed9ab1~mv2.png/v1/fill/w_306,h_229,fp_0.50_0.50,q_95,enc_avif,quality_auto/a86e04_10b77301628842c793abcddc24ed9ab1~mv2.png",
+                             "Bytes":  190002
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_10b77301628842c793abcddc24ed9ab1_mv2.webp",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_10b77301628842c793abcddc24ed9ab1~mv2.png/v1/fill/w_306,h_229,fp_0.50_0.50,q_95,enc_avif,quality_auto/a86e04_10b77301628842c793abcddc24ed9ab1~mv2.webp",
+                             "Bytes":  190002
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_10b77301628842c793abcddc24ed9ab1_mv2-2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_10b77301628842c793abcddc24ed9ab1~mv2.png/v1/fill/w_334,h_250,fp_0.50_0.50,q_35,blur_30,enc_avif,quality_auto/a86e04_10b77301628842c793abcddc24ed9ab1~mv2.png",
+                             "Bytes":  81039
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_10b77301628842c793abcddc24ed9ab1_mv2-2.webp",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_10b77301628842c793abcddc24ed9ab1~mv2.png/v1/fill/w_334,h_250,fp_0.50_0.50,q_35,blur_30,enc_avif,quality_auto/a86e04_10b77301628842c793abcddc24ed9ab1~mv2.webp",
+                             "Bytes":  81039
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_10b77301628842c793abcddc24ed9ab1_mv2-3.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_10b77301628842c793abcddc24ed9ab1~mv2.png/v1/fill/w_770,h_576,fp_0.50_0.50,q_35,blur_30,enc_avif,quality_auto/a86e04_10b77301628842c793abcddc24ed9ab1~mv2.png",
+                             "Bytes":  382330
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_10b77301628842c793abcddc24ed9ab1_mv2-3.webp",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_10b77301628842c793abcddc24ed9ab1~mv2.png/v1/fill/w_770,h_576,fp_0.50_0.50,q_35,blur_30,enc_avif,quality_auto/a86e04_10b77301628842c793abcddc24ed9ab1~mv2.webp",
+                             "Bytes":  382330
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_10b77301628842c793abcddc24ed9ab1_mv2-4.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_10b77301628842c793abcddc24ed9ab1~mv2.png/v1/fill/w_770,h_576,fp_0.50_0.50,q_95,enc_avif,quality_auto/a86e04_10b77301628842c793abcddc24ed9ab1~mv2.png",
+                             "Bytes":  1111585
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_10b77301628842c793abcddc24ed9ab1_mv2-4.webp",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_10b77301628842c793abcddc24ed9ab1~mv2.png/v1/fill/w_770,h_576,fp_0.50_0.50,q_95,enc_avif,quality_auto/a86e04_10b77301628842c793abcddc24ed9ab1~mv2.webp",
+                             "Bytes":  1111585
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/file-4.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_10b77301628842c793abcddc24ed9ab1~mv2.png/v1/fit/w_1000,h_576,al_c,q_80/file.png",
+                             "Bytes":  1434243
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_12f09629f5fe481cb379f18bcd4acbda_mv2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_12f09629f5fe481cb379f18bcd4acbda~mv2.png/v1/fill/w_1600,h_320,al_c/a86e04_12f09629f5fe481cb379f18bcd4acbda~mv2.png",
+                             "Bytes":  458322
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_1e61f397e45c4653847dff6dd8b90d87_mv2.jpg",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_1e61f397e45c4653847dff6dd8b90d87~mv2.jpg/v1/fill/w_1024,h_1024,al_c,q_85/a86e04_1e61f397e45c4653847dff6dd8b90d87~mv2.jpg",
+                             "Bytes":  41999
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/file-2.jpg",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_1e61f397e45c4653847dff6dd8b90d87~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+                             "Bytes":  15776
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_2709e444968b4780b1d0e8b25b52ba43_mv2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_2709e444968b4780b1d0e8b25b52ba43~mv2.png/v1/fill/w_1024,h_1024,al_c,q_90,enc_auto/a86e04_2709e444968b4780b1d0e8b25b52ba43~mv2.png",
+                             "Bytes":  1692043
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_37949faf23c140a995d774bc60555f2b_mv2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_37949faf23c140a995d774bc60555f2b~mv2.png/v1/fill/w_66,h_66,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a86e04_37949faf23c140a995d774bc60555f2b~mv2.png",
+                             "Bytes":  8667
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_37949faf23c140a995d774bc60555f2b_mv2-2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_37949faf23c140a995d774bc60555f2b~mv2.png/v1/fill/w_663,h_662,al_c/a86e04_37949faf23c140a995d774bc60555f2b~mv2.png",
+                             "Bytes":  357243
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/file-5.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_37949faf23c140a995d774bc60555f2b~mv2.png/v1/fit/w_50,h_50,q_90/file.png",
+                             "Bytes":  4867
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/file-6.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_37949faf23c140a995d774bc60555f2b~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+                             "Bytes":  240909
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_42bb86db954f497c91fb2db7d429d700_mv2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_42bb86db954f497c91fb2db7d429d700~mv2.png/v1/fill/w_1024,h_1024,al_c,q_90,enc_auto/a86e04_42bb86db954f497c91fb2db7d429d700~mv2.png",
+                             "Bytes":  1442812
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_45f4e85b685447f187be20f3641df932_mv2.jpg",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_45f4e85b685447f187be20f3641df932~mv2.jpg/v1/fill/w_736,h_1078,al_c,q_85,enc_auto/a86e04_45f4e85b685447f187be20f3641df932~mv2.jpg",
+                             "Bytes":  80037
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_45ff6a5965244ae0bec4b47f53eacc60_mv2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_45ff6a5965244ae0bec4b47f53eacc60~mv2.png/v1/fill/w_305,h_229,fp_0.50_0.50,q_95,enc_avif,quality_auto/a86e04_45ff6a5965244ae0bec4b47f53eacc60~mv2.png",
+                             "Bytes":  181707
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_45ff6a5965244ae0bec4b47f53eacc60_mv2.webp",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_45ff6a5965244ae0bec4b47f53eacc60~mv2.png/v1/fill/w_305,h_229,fp_0.50_0.50,q_95,enc_avif,quality_auto/a86e04_45ff6a5965244ae0bec4b47f53eacc60~mv2.webp",
+                             "Bytes":  181707
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_45ff6a5965244ae0bec4b47f53eacc60_mv2-2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_45ff6a5965244ae0bec4b47f53eacc60~mv2.png/v1/fill/w_333,h_250,fp_0.50_0.50,q_35,blur_30,enc_avif,quality_auto/a86e04_45ff6a5965244ae0bec4b47f53eacc60~mv2.png",
+                             "Bytes":  92114
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_45ff6a5965244ae0bec4b47f53eacc60_mv2-2.webp",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_45ff6a5965244ae0bec4b47f53eacc60~mv2.png/v1/fill/w_333,h_250,fp_0.50_0.50,q_35,blur_30,enc_avif,quality_auto/a86e04_45ff6a5965244ae0bec4b47f53eacc60~mv2.webp",
+                             "Bytes":  92114
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_45ff6a5965244ae0bec4b47f53eacc60_mv2-3.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_45ff6a5965244ae0bec4b47f53eacc60~mv2.png/v1/fill/w_767,h_576,fp_0.50_0.50,q_35,blur_30,enc_avif,quality_auto/a86e04_45ff6a5965244ae0bec4b47f53eacc60~mv2.png",
+                             "Bytes":  418983
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_45ff6a5965244ae0bec4b47f53eacc60_mv2-3.webp",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_45ff6a5965244ae0bec4b47f53eacc60~mv2.png/v1/fill/w_767,h_576,fp_0.50_0.50,q_35,blur_30,enc_avif,quality_auto/a86e04_45ff6a5965244ae0bec4b47f53eacc60~mv2.webp",
+                             "Bytes":  418983
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_45ff6a5965244ae0bec4b47f53eacc60_mv2-4.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_45ff6a5965244ae0bec4b47f53eacc60~mv2.png/v1/fill/w_767,h_576,fp_0.50_0.50,q_95,enc_avif,quality_auto/a86e04_45ff6a5965244ae0bec4b47f53eacc60~mv2.png",
+                             "Bytes":  1083334
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_45ff6a5965244ae0bec4b47f53eacc60_mv2-4.webp",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_45ff6a5965244ae0bec4b47f53eacc60~mv2.png/v1/fill/w_767,h_576,fp_0.50_0.50,q_95,enc_avif,quality_auto/a86e04_45ff6a5965244ae0bec4b47f53eacc60~mv2.webp",
+                             "Bytes":  1083334
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/file-7.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_45ff6a5965244ae0bec4b47f53eacc60~mv2.png/v1/fit/w_1000,h_576,al_c,q_80/file.png",
+                             "Bytes":  1393034
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_663af212a67b4149b57fd80c3101bd1d_mv2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_663af212a67b4149b57fd80c3101bd1d~mv2.png/v1/fill/w_1600,h_320,al_c/a86e04_663af212a67b4149b57fd80c3101bd1d~mv2.png",
+                             "Bytes":  623616
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_68eb84dd8e4c404196fe05fa2317293e_mv2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_68eb84dd8e4c404196fe05fa2317293e~mv2.png/v1/fill/w_74,h_86,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a86e04_68eb84dd8e4c404196fe05fa2317293e~mv2.png",
+                             "Bytes":  13271
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_68eb84dd8e4c404196fe05fa2317293e_mv2-2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_68eb84dd8e4c404196fe05fa2317293e~mv2.png/v1/fill/w_740,h_857,al_c/a86e04_68eb84dd8e4c404196fe05fa2317293e~mv2.png",
+                             "Bytes":  508747
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/file-8.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_68eb84dd8e4c404196fe05fa2317293e~mv2.png/v1/fit/w_50,h_50,q_90/file.png",
+                             "Bytes":  5221
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/file-9.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_68eb84dd8e4c404196fe05fa2317293e~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+                             "Bytes":  263438
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_6b47115834a244cd8f7460ff0d44d438_mv2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_6b47115834a244cd8f7460ff0d44d438~mv2.png/v1/fill/w_124,h_177,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a86e04_6b47115834a244cd8f7460ff0d44d438~mv2.png",
+                             "Bytes":  39575
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_6b47115834a244cd8f7460ff0d44d438_mv2-2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_6b47115834a244cd8f7460ff0d44d438~mv2.png/v1/fill/w_595,h_848,al_c,lg_1/a86e04_6b47115834a244cd8f7460ff0d44d438~mv2.png",
+                             "Bytes":  786544
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/file-10.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_6b47115834a244cd8f7460ff0d44d438~mv2.png/v1/fit/w_50,h_50,q_90/file.png",
+                             "Bytes":  5025
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/file-11.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_6b47115834a244cd8f7460ff0d44d438~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+                             "Bytes":  304340
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_7dc3b8a62b84428ebc9e79a550b117e3_mv2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_7dc3b8a62b84428ebc9e79a550b117e3~mv2.png/v1/crop/x_4,y_0,w_1020,h_1024/fill/w_1020,h_1024,al_c,q_90,enc_auto/a86e04_7dc3b8a62b84428ebc9e79a550b117e3~mv2.png",
+                             "Bytes":  1505777
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_82c91b07794e4834845aa92bf405c359_mv2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_82c91b07794e4834845aa92bf405c359~mv2.png/v1/fill/w_668,h_665,al_c/a86e04_82c91b07794e4834845aa92bf405c359~mv2.png",
+                             "Bytes":  602039
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_82c91b07794e4834845aa92bf405c359_mv2-2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_82c91b07794e4834845aa92bf405c359~mv2.png/v1/fill/w_67,h_67,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a86e04_82c91b07794e4834845aa92bf405c359~mv2.png",
+                             "Bytes":  10879
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/file-12.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_82c91b07794e4834845aa92bf405c359~mv2.png/v1/fit/w_50,h_50,q_90/file.png",
+                             "Bytes":  6389
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/file-13.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_82c91b07794e4834845aa92bf405c359~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+                             "Bytes":  383400
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_92595ef416c94944b909ad5112403c38_mv2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_92595ef416c94944b909ad5112403c38~mv2.png/v1/fill/w_1024,h_1024,al_c,q_90,enc_auto/a86e04_92595ef416c94944b909ad5112403c38~mv2.png",
+                             "Bytes":  1138984
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_969dcf20787745488f9375908268dcf6_mv2.jpg",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_969dcf20787745488f9375908268dcf6~mv2.jpg/v1/fill/w_1024,h_1024,al_c,q_85/a86e04_969dcf20787745488f9375908268dcf6~mv2.jpg",
+                             "Bytes":  64994
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_969dcf20787745488f9375908268dcf6_mv2-2.jpg",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_969dcf20787745488f9375908268dcf6~mv2.jpg/v1/fill/w_147,h_147,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a86e04_969dcf20787745488f9375908268dcf6~mv2.jpg",
+                             "Bytes":  2787
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_969dcf20787745488f9375908268dcf6_mv2-3.jpg",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_969dcf20787745488f9375908268dcf6~mv2.jpg/v1/fill/w_154,h_154,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a86e04_969dcf20787745488f9375908268dcf6~mv2.jpg",
+                             "Bytes":  2924
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/file-4.jpg",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_969dcf20787745488f9375908268dcf6~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+                             "Bytes":  25485
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_9ce7ace194bb4be182aa635cf1d9960f_mv2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_9ce7ace194bb4be182aa635cf1d9960f~mv2.png/v1/fill/w_1000,h_717,al_c/a86e04_9ce7ace194bb4be182aa635cf1d9960f~mv2.png",
+                             "Bytes":  506906
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_9ce7ace194bb4be182aa635cf1d9960f_mv2-2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_9ce7ace194bb4be182aa635cf1d9960f~mv2.png/v1/fill/w_49,h_35,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a86e04_9ce7ace194bb4be182aa635cf1d9960f~mv2.png",
+                             "Bytes":  4695
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/file-14.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_9ce7ace194bb4be182aa635cf1d9960f~mv2.png/v1/fit/w_50,h_50,q_90/file.png",
+                             "Bytes":  4664
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/file-15.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_9ce7ace194bb4be182aa635cf1d9960f~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+                             "Bytes":  267782
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_a6a4e81ec3494e8ebceeb65a83455d5e_mv2.jpg",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_a6a4e81ec3494e8ebceeb65a83455d5e~mv2.jpg/v1/fill/w_1024,h_1024,al_c,q_85,enc_auto/a86e04_a6a4e81ec3494e8ebceeb65a83455d5e~mv2.jpg",
+                             "Bytes":  54293
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_a6a4e81ec3494e8ebceeb65a83455d5e_mv2-2.jpg",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_a6a4e81ec3494e8ebceeb65a83455d5e~mv2.jpg/v1/fill/w_1024,h_1024,al_c,q_85/a86e04_a6a4e81ec3494e8ebceeb65a83455d5e~mv2.jpg",
+                             "Bytes":  66069
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_a6a4e81ec3494e8ebceeb65a83455d5e_mv2-3.jpg",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_a6a4e81ec3494e8ebceeb65a83455d5e~mv2.jpg/v1/fill/w_147,h_147,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a86e04_a6a4e81ec3494e8ebceeb65a83455d5e~mv2.jpg",
+                             "Bytes":  3240
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_a6a4e81ec3494e8ebceeb65a83455d5e_mv2-4.jpg",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_a6a4e81ec3494e8ebceeb65a83455d5e~mv2.jpg/v1/fill/w_154,h_154,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a86e04_a6a4e81ec3494e8ebceeb65a83455d5e~mv2.jpg",
+                             "Bytes":  3442
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/file-6.jpg",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_a6a4e81ec3494e8ebceeb65a83455d5e~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+                             "Bytes":  27593
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_af631a13cc7b425389f52c5d4ab48b8e_mv2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_af631a13cc7b425389f52c5d4ab48b8e~mv2.png/v1/fill/w_1600,h_320,al_c/a86e04_af631a13cc7b425389f52c5d4ab48b8e~mv2.png",
+                             "Bytes":  561658
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_be794bf60b2f422e868513564de7e1ba_mv2.jpg",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_be794bf60b2f422e868513564de7e1ba~mv2.jpg/v1/fill/w_147,h_147,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a86e04_be794bf60b2f422e868513564de7e1ba~mv2.jpg",
+                             "Bytes":  2264
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/file-7.jpg",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_be794bf60b2f422e868513564de7e1ba~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+                             "Bytes":  18873
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_ccf1e7f7b55e4b74ac74363e8888324e_mv2.jpg",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_ccf1e7f7b55e4b74ac74363e8888324e~mv2.jpg/v1/fill/w_1024,h_1024,al_c,q_85/a86e04_ccf1e7f7b55e4b74ac74363e8888324e~mv2.jpg",
+                             "Bytes":  75077
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_ccf1e7f7b55e4b74ac74363e8888324e_mv2-2.jpg",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_ccf1e7f7b55e4b74ac74363e8888324e~mv2.jpg/v1/fill/w_147,h_147,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a86e04_ccf1e7f7b55e4b74ac74363e8888324e~mv2.jpg",
+                             "Bytes":  3415
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_ccf1e7f7b55e4b74ac74363e8888324e_mv2-3.jpg",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_ccf1e7f7b55e4b74ac74363e8888324e~mv2.jpg/v1/fill/w_154,h_154,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a86e04_ccf1e7f7b55e4b74ac74363e8888324e~mv2.jpg",
+                             "Bytes":  3628
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/file-9.jpg",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_ccf1e7f7b55e4b74ac74363e8888324e~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+                             "Bytes":  32034
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_d0adb0f1bcef49be987bd99f4d33f627_mv2.jpg",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_d0adb0f1bcef49be987bd99f4d33f627~mv2.jpg/v1/fill/w_1024,h_1024,al_c,q_85/a86e04_d0adb0f1bcef49be987bd99f4d33f627~mv2.jpg",
+                             "Bytes":  51860
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_d0adb0f1bcef49be987bd99f4d33f627_mv2-2.jpg",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_d0adb0f1bcef49be987bd99f4d33f627~mv2.jpg/v1/fill/w_147,h_147,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a86e04_d0adb0f1bcef49be987bd99f4d33f627~mv2.jpg",
+                             "Bytes":  2332
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_d0adb0f1bcef49be987bd99f4d33f627_mv2-3.jpg",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_d0adb0f1bcef49be987bd99f4d33f627~mv2.jpg/v1/fill/w_154,h_154,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a86e04_d0adb0f1bcef49be987bd99f4d33f627~mv2.jpg",
+                             "Bytes":  2376
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/file-11.jpg",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_d0adb0f1bcef49be987bd99f4d33f627~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+                             "Bytes":  18829
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_e13f741286f3440b87db2ccbf50c3926_mv2.jpg",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_e13f741286f3440b87db2ccbf50c3926~mv2.jpg/v1/fill/w_1024,h_1024,al_c,q_85,enc_auto/a86e04_e13f741286f3440b87db2ccbf50c3926~mv2.jpg",
+                             "Bytes":  48998
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_e13f741286f3440b87db2ccbf50c3926_mv2-2.jpg",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_e13f741286f3440b87db2ccbf50c3926~mv2.jpg/v1/fill/w_147,h_147,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a86e04_e13f741286f3440b87db2ccbf50c3926~mv2.jpg",
+                             "Bytes":  3181
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/file-12.jpg",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_e13f741286f3440b87db2ccbf50c3926~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+                             "Bytes":  26161
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_f936367cab29487eb850cf6729ad87fc_mv2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_f936367cab29487eb850cf6729ad87fc~mv2.png/v1/fill/w_66,h_66,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/a86e04_f936367cab29487eb850cf6729ad87fc~mv2.png",
+                             "Bytes":  9549
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/a86e04_f936367cab29487eb850cf6729ad87fc_mv2-2.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_f936367cab29487eb850cf6729ad87fc~mv2.png/v1/fill/w_663,h_663,al_c/a86e04_f936367cab29487eb850cf6729ad87fc~mv2.png",
+                             "Bytes":  433688
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/file-16.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_f936367cab29487eb850cf6729ad87fc~mv2.png/v1/fit/w_50,h_50,q_90/file.png",
+                             "Bytes":  5598
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/file-17.png",
+                             "Url":  "https://static.wixstatic.com/media/a86e04_f936367cab29487eb850cf6729ad87fc~mv2.png/v1/fit/w_500,h_500,q_90/file.png",
+                             "Bytes":  285347
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/c837a6_801d517941454d9cbae567dc9497e8f2_mv2.jpg",
+                             "Url":  "https://static.wixstatic.com/media/c837a6_801d517941454d9cbae567dc9497e8f2~mv2.jpg/v1/fill/w_1920,h_2469,al_c/c837a6_801d517941454d9cbae567dc9497e8f2~mv2.jpg",
+                             "Bytes":  479857
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/c837a6_a95c542ebbc34555aaac668a7a511de9_mv2.png",
+                             "Url":  "https://static.wixstatic.com/media/c837a6_a95c542ebbc34555aaac668a7a511de9~mv2.png/v1/fill/w_2368,h_1728,al_c,q_95,enc_auto/c837a6_a95c542ebbc34555aaac668a7a511de9~mv2.png",
+                             "Bytes":  8095540
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/c837a6_b27c498a8337422ba2fa4590814f346a_mv2.jpg",
+                             "Url":  "https://static.wixstatic.com/media/c837a6_b27c498a8337422ba2fa4590814f346a~mv2.jpg/v1/fill/w_1224,h_673,al_c/c837a6_b27c498a8337422ba2fa4590814f346a~mv2.jpg",
+                             "Bytes":  123362
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/c837a6_c20a97718f7649be960cd84fd0cd5cf6_mv2.jpg",
+                             "Url":  "https://static.wixstatic.com/media/c837a6_c20a97718f7649be960cd84fd0cd5cf6~mv2.jpg/v1/fill/w_1920,h_1920,al_c/c837a6_c20a97718f7649be960cd84fd0cd5cf6~mv2.jpg",
+                             "Bytes":  369567
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/c837a6_ac046502b54b4de48eba3a8366b0670f.svg",
+                             "Url":  "https://static.wixstatic.com/shapes/c837a6_ac046502b54b4de48eba3a8366b0670f.svg",
+                             "Bytes":  5226
+                         },
+                         {
+                             "Path":  "public/images/source/wix-demo/1785686874414-thumbnail.jpeg",
+                             "Url":  "https://wixmp-fe53c9ff592a4da924211f23.wixmp.com/users/a86e040a-a49c-493c-a70b-7e18174590b1/design-previews/2fb1d24f-3349-428c-b69c-a02df26800b5/1785686874414-thumbnail.jpeg",
+                             "Bytes":  15444
+                         }
+                     ]
+    }
+]

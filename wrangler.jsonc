@@ -1,0 +1,27 @@
+﻿{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "theo-apples",
+  "compatibility_date": "2025-08-04",
+  "main": "./worker/index.ts",
+  "assets": {
+    "not_found_handling": "single-page-application",
+    "binding": "ASSETS"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "theo-apples-db",
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "MEDIA",
+      "bucket_name": "theo-apples-media"
+    }
+  ],
+  "vars": {
+    "PUBLIC_SITE_URL": "http://localhost:3010"
+  }
+}

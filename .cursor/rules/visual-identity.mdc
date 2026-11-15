@@ -1,0 +1,30 @@
+---
+description: Theo Apples visual identity — match/improve Wix editorial design
+alwaysApply: true
+---
+
+# Theo Apples — Desired Site Look
+
+Visual source of truth: Wix demo https://vasilevasilvena.wixsite.com/theo-apples  
+Screenshots & studio assets: `docs/reference/` and `public/images/`  
+Improve engineering and copy; do **not** restyle into SaaS/portfolio-template aesthetics.
+
+## Palette
+
+- Ivory canvas `#f2f2e9` / warm `#e6dfd2`
+- Crimson `#b50022` (text, rules, CTAs)
+- No UI shadows, rounded cards, or chrome gradients
+
+## Typography
+
+- Serif display: wordmark, hero, about, range titles, CONTACT
+- Mono uppercase: nav, labels, craft caption, CTAs
+- Small body for descriptions/forms
+
+## Homepage order
+
+Header → Hero collage → Craft statement → Split spread → About → Featured → Our Range → Limited Edition → Contact
+
+## Domains (later)
+
+Production `www.theoapples.com`; archives per `docs/SEO_DOMAIN_CUTOVER.md`. Wix = UI only.

@@ -1,0 +1,31 @@
+.about-statement {
+  padding: clamp(5rem, 10vw, 10rem) var(--page-gutter);
+  background: var(--color-canvas-warm);
+  color: var(--color-crimson);
+}
+
+.about-statement .section-label {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.about-statement__lead {
+  max-width: 16ch;
+  margin: clamp(1.5rem, 4vw, 3rem) 0 1rem;
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 4.5vw, 4.8rem);
+  font-weight: 500;
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+}
+
+.about-statement__body {
+  max-width: var(--reading-width);
+  margin: 0 0 1.75rem;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--color-ink);
+}

@@ -1,0 +1,162 @@
+﻿[
+    {
+        "Path":  "public/images/hero/sculpture-apple-with-leafs.jpg",
+        "Url":  "https://www.theoapples.com/ (via sculpture_apple_with_leafs_1.jpg)",
+        "Use":  "hero"
+    },
+    {
+        "Path":  "public/images/featured/wooden-apple-featured.jpg",
+        "Url":  "https://www.theoapples.com/ (via wooden_apple3.jpg)",
+        "Use":  "featured"
+    },
+    {
+        "Path":  "public/images/featured/plated-apple.jpg",
+        "Url":  "https://www.theoapples.com/ (via plated_apple.jpg)",
+        "Use":  "featured"
+    },
+    {
+        "Path":  "public/images/featured/round-cube-table.jpg",
+        "Url":  "https://www.theoapples.com/ (via round_cube_table.jpg)",
+        "Use":  "featured"
+    },
+    {
+        "Path":  "public/images/contact/t-dukov-portrait.jpg",
+        "Url":  "https://www.theoapples.com/ (via T.Dukov.jpg)",
+        "Use":  "contact"
+    },
+    {
+        "Path":  "public/images/studio/working.jpg",
+        "Url":  "https://www.theoapples.com/ (via working.jpg)",
+        "Use":  "studio"
+    },
+    {
+        "Path":  "public/images/split/black-white-sculptures.jpg",
+        "Url":  "https://www.theoapples.com/ (via black_white.jpg)",
+        "Use":  "split"
+    },
+    {
+        "Path":  "public/images/limited/gallery-1.jpg",
+        "Url":  "https://www.theoapples.com/ (via 1.jpg)",
+        "Use":  "limited"
+    },
+    {
+        "Path":  "public/images/split/gallery-4.jpg",
+        "Url":  "https://www.theoapples.com/ (via 4.jpg)",
+        "Use":  "split"
+    },
+    {
+        "Path":  "public/images/featured/table-pear.jpg",
+        "Url":  "https://www.theoapples.com/ (via table_pear.jpg)",
+        "Use":  "featured"
+    },
+    {
+        "Path":  "public/images/hero/gold-apple.jpg",
+        "Url":  "https://www.theoapples.com/ (via gold2.jpg)",
+        "Use":  "hero"
+    },
+    {
+        "Path":  "public/images/hero/apple-in-hand.png",
+        "Url":  "https://www.theoapples.com/ (via appleinhand.png)",
+        "Use":  "hero"
+    },
+    {
+        "Path":  "public/images/split/wix-split-1.png",
+        "Url":  "wix-demo source a86e04_2709e444968b4780b1d0e8b25b52ba43_mv2.png",
+        "Use":  "split"
+    },
+    {
+        "Path":  "public/images/limited/wix-limited-2.png",
+        "Url":  "wix-demo source a86e04_7dc3b8a62b84428ebc9e79a550b117e3_mv2.png",
+        "Use":  "limited"
+    },
+    {
+        "Path":  "public/images/featured/wix-featured-3.png",
+        "Url":  "wix-demo source a86e04_42bb86db954f497c91fb2db7d429d700_mv2.png",
+        "Use":  "featured"
+    },
+    {
+        "Path":  "public/images/hero/wix-hero-4.png",
+        "Url":  "wix-demo source a86e04_92595ef416c94944b909ad5112403c38_mv2.png",
+        "Use":  "hero"
+    },
+    {
+        "Path":  "public/images/split/wix-split-5.webp",
+        "Url":  "wix-demo source a86e04_10b77301628842c793abcddc24ed9ab1_mv2-4.webp",
+        "Use":  "split"
+    },
+    {
+        "Path":  "public/images/limited/wix-limited-6.png",
+        "Url":  "wix-demo source a86e04_10b77301628842c793abcddc24ed9ab1_mv2-4.png",
+        "Use":  "limited"
+    },
+    {
+        "Path":  "public/images/featured/wix-featured-7.png",
+        "Url":  "wix-demo source a86e04_45ff6a5965244ae0bec4b47f53eacc60_mv2-4.png",
+        "Use":  "featured"
+    },
+    {
+        "Path":  "public/images/hero/wix-hero-8.webp",
+        "Url":  "wix-demo source a86e04_45ff6a5965244ae0bec4b47f53eacc60_mv2-4.webp",
+        "Use":  "hero"
+    },
+    {
+        "Path":  "public/images/split/wix-split-9.png",
+        "Url":  "wix-demo source a86e04_0b4928a3ca43426d9010a6ec9d30272c_mv2-4.png",
+        "Use":  "split"
+    },
+    {
+        "Path":  "public/images/limited/wix-limited-10.webp",
+        "Url":  "wix-demo source a86e04_0b4928a3ca43426d9010a6ec9d30272c_mv2-4.webp",
+        "Use":  "limited"
+    },
+    {
+        "Path":  "public/images/featured/wix-featured-11.png",
+        "Url":  "wix-demo source a86e04_6b47115834a244cd8f7460ff0d44d438_mv2-2.png",
+        "Use":  "featured"
+    },
+    {
+        "Path":  "public/images/hero/wix-hero-12.png",
+        "Url":  "wix-demo source a86e04_075318f72a904429b63aab33933cffb4_mv2.png",
+        "Use":  "hero"
+    },
+    {
+        "Path":  "public/images/studio/teodor-1.jpg",
+        "Url":  "teodordukov.com source girl-with-green-eyes-drawings-2.jpg",
+        "Use":  "studio"
+    },
+    {
+        "Path":  "public/images/studio/teodor-2.JPG",
+        "Url":  "teodordukov.com source SAM_0329-2.JPG",
+        "Use":  "studio"
+    },
+    {
+        "Path":  "public/images/featured/teodor-3.JPG",
+        "Url":  "teodordukov.com source SAM_0329.JPG",
+        "Use":  "featured"
+    },
+    {
+        "Path":  "public/images/featured/teodor-4.jpg",
+        "Url":  "teodordukov.com source Piligrim_205.jpg",
+        "Use":  "featured"
+    },
+    {
+        "Path":  "public/images/split/teodor-5.JPG",
+        "Url":  "teodordukov.com source SAM_0346.JPG",
+        "Use":  "split"
+    },
+    {
+        "Path":  "public/images/split/teodor-6.JPG",
+        "Url":  "teodordukov.com source SAM_0346-2.JPG",
+        "Use":  "split"
+    },
+    {
+        "Path":  "public/images/split/teodor-7.JPG",
+        "Url":  "teodordukov.com source SAM_0338.JPG",
+        "Use":  "split"
+    },
+    {
+        "Path":  "public/images/split/teodor-8.JPG",
+        "Url":  "teodordukov.com source SAM_0338-2.JPG",
+        "Use":  "split"
+    }
+]

@@ -1,0 +1,238 @@
+/* First screen matches the Wix homepage at ~1512px: one viewport under the header. */
+
+.hero {
+  position: relative;
+  background: var(--color-canvas);
+  color: var(--color-crimson);
+}
+
+.hero__stage {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: clamp(1.1rem, 3.2vh, 2rem) 0 0.35rem;
+  overflow: visible;
+}
+
+.hero__title-group {
+  position: relative;
+  z-index: 5;
+  width: max-content;
+  max-width: 92vw;
+  text-align: center;
+  pointer-events: none;
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.8rem 1.4rem;
+  margin-top: 1.15rem;
+  pointer-events: auto;
+}
+
+.hero__cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0.55rem 1rem;
+  background: var(--color-crimson);
+  color: var(--color-canvas);
+  font-family: var(--font-mono);
+  font-size: clamp(0.68rem, 1vw, 0.95rem);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 0.22em;
+}
+
+.hero__cta--quiet {
+  background: transparent;
+  color: var(--color-crimson);
+}
+
+.hero__cta:hover,
+.hero__cta:focus-visible {
+  background: var(--color-crimson-deep);
+  color: var(--color-canvas);
+}
+
+.hero__title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(3.6rem, 8.15vw, 7.7rem);
+  line-height: 1.12;
+  letter-spacing: -0.015em;
+  color: var(--color-crimson);
+}
+
+.hero__subtitle {
+  margin: 1.15rem 0 0;
+  font-family: var(--font-mono);
+  font-size: clamp(0.68rem, 1.24vw, 1.17rem);
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--color-crimson);
+}
+
+.hero__art {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.hero__float {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: clamp(72px, 6.9vw, 112px);
+  height: auto;
+  object-fit: contain;
+  border-radius: 0;
+  box-shadow: none;
+  pointer-events: none;
+}
+
+.hero__float--left-top {
+  top: 19.2%;
+  left: 11.8%;
+}
+
+.hero__float--left-middle {
+  top: 37.3%;
+  left: 14.4%;
+}
+
+.hero__float--left-bottom {
+  top: 63.8%;
+  left: 11%;
+}
+
+.hero__float--right-top {
+  top: 19.3%;
+  left: 81.2%;
+}
+
+.hero__float--right-middle {
+  top: 46.4%;
+  left: 74%;
+}
+
+.hero__float--right-bottom {
+  top: 55.8%;
+  left: 84%;
+}
+
+.hero__featured {
+  position: relative;
+  z-index: 4;
+  width: clamp(220px, 26vw, 400px);
+  margin-top: clamp(1.15rem, 2.8vh, 1.85rem);
+  pointer-events: none;
+}
+
+.hero__main {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.hero__shop {
+  position: absolute;
+  left: 50%;
+  bottom: 92px;
+  transform: translateX(-50%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: clamp(160px, 14vw, 220px);
+  height: 42px;
+  padding: 0 0.5rem;
+  background: var(--color-crimson);
+  color: var(--color-canvas);
+  font-family: var(--font-mono);
+  font-size: clamp(0.72rem, 1.16vw, 1.1rem);
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 0.22em;
+  border-radius: 0;
+  box-shadow: none;
+  pointer-events: auto;
+}
+
+.hero__shop:hover,
+.hero__shop:focus-visible {
+  background: var(--color-crimson-deep);
+}
+
+@media (max-width: 900px) {
+  .hero__stage {
+    height: auto;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.25rem;
+    padding: 2.5rem var(--page-gutter) 3rem;
+    overflow: visible;
+  }
+
+  .hero__title-group,
+  .hero__featured,
+  .hero__float {
+    position: relative;
+    inset: auto;
+    left: auto;
+    top: auto;
+    transform: none;
+  }
+
+  .hero__title {
+    font-size: clamp(3rem, 14vw, 4.5rem);
+  }
+
+  .hero__art {
+    position: static;
+    display: contents;
+  }
+
+  .hero__float {
+    display: none;
+    width: 88px;
+  }
+
+  .hero__float--left-top,
+  .hero__float--right-bottom {
+    display: block;
+    position: absolute;
+  }
+
+  .hero__float--left-top {
+    top: 7.5rem;
+    left: 0.75rem;
+  }
+
+  .hero__float--right-bottom {
+    right: 0.75rem;
+    bottom: 5.5rem;
+    left: auto;
+  }
+
+  .hero__featured {
+    width: min(78vw, 340px);
+    margin-top: 0.5rem;
+  }
+}
