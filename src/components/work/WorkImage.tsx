@@ -79,14 +79,16 @@ export function WorkImage({
 export function Reveal({
   kind,
   className = "",
+  immediate = false,
   children,
 }: {
   kind: "label" | "image" | "text";
   className?: string;
+  immediate?: boolean;
   children: ReactNode;
 }) {
   const ref = useRef<HTMLDivElement>(null);
-  const [visible, setVisible] = useState(false);
+  const [visible, setVisible] = useState(immediate);
 
   useEffect(() => {
     const node = ref.current;
@@ -101,7 +103,7 @@ export function Reveal({
         setVisible(true);
         observer.disconnect();
       },
-      { threshold: 0.18, rootMargin: "0px 0px -8% 0px" },
+      { threshold: 0.08, rootMargin: "0px 0px -4% 0px" },
     );
     observer.observe(node);
     return () => observer.disconnect();

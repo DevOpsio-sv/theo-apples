@@ -42,7 +42,7 @@
   display: grid;
   grid-template-columns: minmax(0, 0.92fr) minmax(0, 1.08fr);
   gap: clamp(1.5rem, 4vw, 4.5rem);
-  align-items: end;
+  align-items: start;
   padding-block: clamp(2.5rem, 6vw, 5rem) clamp(4rem, 8vw, 7rem);
 }
 
@@ -76,6 +76,14 @@
 
 .work-intro__figure {
   margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.work-intro__figure img {
+  width: auto;
+  max-width: 100%;
+  max-height: min(78vh, 860px);
 }
 
 .work-figure {
@@ -118,7 +126,7 @@
 .work-section {
   display: grid;
   gap: clamp(1.25rem, 3vw, 2.75rem);
-  align-items: end;
+  align-items: start;
   padding-block: clamp(3.5rem, 8vw, 6.5rem);
   border-top: 1px solid var(--color-line);
   scroll-margin-top: calc(var(--header-height) + 1.5rem);
@@ -215,15 +223,33 @@
 
 .work-signature__cluster {
   display: grid;
-  grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.9fr);
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.9fr);
   gap: clamp(1rem, 2.5vw, 2rem);
-  align-items: end;
+  align-items: start;
   margin-top: 1.5rem;
+}
+
+.work-signature__major,
+.work-signature__supports > * {
+  min-width: 0;
+}
+
+.work-signature__major {
+  display: flex;
+  justify-content: center;
+}
+
+.work-signature__major img {
+  width: auto;
+  max-width: 100%;
+  max-height: min(64vh, 820px);
 }
 
 .work-signature__supports {
   display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: 1rem;
+  align-content: start;
 }
 
 .work-signature__copy {
@@ -323,7 +349,7 @@
   display: grid;
   grid-template-columns: minmax(0, 0.72fr) minmax(0, 1fr);
   gap: clamp(1rem, 3vw, 2.5rem);
-  align-items: end;
+  align-items: start;
   padding-block: clamp(1.4rem, 3vw, 2.2rem);
   border-top: 1px solid var(--color-line-soft);
 }
@@ -387,7 +413,7 @@
   display: grid;
   grid-template-columns: minmax(0, 0.78fr) minmax(0, 1.05fr);
   gap: clamp(1.5rem, 4vw, 3.5rem);
-  align-items: end;
+  align-items: start;
   border-top: 1px solid var(--color-line);
 }
 
@@ -497,7 +523,8 @@
     grid-row: auto;
   }
 
-  .work-supports {
+  .work-supports,
+  .work-signature__supports {
     grid-template-columns: 1fr;
   }
 

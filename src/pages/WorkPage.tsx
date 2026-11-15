@@ -30,17 +30,17 @@ export function WorkPage() {
         <header className="work-intro">
           <div className="work-intro__copy">
             <Breadcrumbs items={crumbsFor(pathname)} label={locale === "bg" ? "Пътека" : "Breadcrumb"} />
-            <Reveal kind="label">
+            <Reveal kind="label" immediate>
               <h1>{copy.title[locale]}</h1>
             </Reveal>
-            <Reveal kind="text">
+            <Reveal kind="text" immediate>
               <p className="work-intro__lede">{copy.lede[locale]}</p>
               {copy.intro[locale].map((paragraph) => (
                 <p key={paragraph.slice(0, 32)}>{paragraph}</p>
               ))}
             </Reveal>
           </div>
-          <Reveal kind="image" className="work-intro__figure">
+          <Reveal kind="image" className="work-intro__figure" immediate>
             <figure className="work-figure">
               <WorkImage
                 still={workStills.pilgrim}

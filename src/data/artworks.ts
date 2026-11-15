@@ -50,7 +50,7 @@ export const artworks: Artwork[] = [
     images: [
       img(
         "cg-1",
-        "/images/artworks/teodor-dukov-crimson-gala-apple-wood-sculpture.png",
+        "/images/artworks/teodor-dukov-verdant-leaf-apple-wood-sculpture.png",
         "Crimson and gold wooden apple sculpture by Teodor Dukov, on a small wooden block",
         "Пурпурна и златна дървена ябълка от Теодор Дуков върху малко дървено блокче",
         1200,
@@ -60,7 +60,7 @@ export const artworks: Artwork[] = [
       ),
     ],
     variants: [],
-    shareImage: "/images/artworks/teodor-dukov-crimson-gala-apple-wood-sculpture.png",
+    shareImage: "/images/artworks/teodor-dukov-verdant-leaf-apple-wood-sculpture.png",
     createdAt: "2026-01-01T00:00:00.000Z",
     updatedAt: "2026-01-01T00:00:00.000Z",
   },
@@ -87,7 +87,7 @@ export const artworks: Artwork[] = [
     images: [
       img(
         "vl-1",
-        "/images/artworks/teodor-dukov-verdant-leaf-apple-wood-sculpture.png",
+        "/images/artworks/teodor-dukov-crimson-gala-apple-wood-sculpture.png",
         "Green wooden apple sculpture with leaves by Teodor Dukov",
         "Зелена дървена ябълка с листа от Теодор Дуков",
         1200,
@@ -97,7 +97,7 @@ export const artworks: Artwork[] = [
       ),
     ],
     variants: [],
-    shareImage: "/images/artworks/teodor-dukov-verdant-leaf-apple-wood-sculpture.png",
+    shareImage: "/images/artworks/teodor-dukov-crimson-gala-apple-wood-sculpture.png",
     createdAt: "2026-01-01T00:00:00.000Z",
     updatedAt: "2026-01-01T00:00:00.000Z",
   },
